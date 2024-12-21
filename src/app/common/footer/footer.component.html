@@ -1,0 +1,28 @@
+<div class="footer">
+  <div class="footer__container container">
+    <div class="footer__content">
+      <img ngSrc="/assets/images/logo.png" alt="Logo" class="footer__content__logo" priority width="86" height="34" />
+      <div>
+        <div class="footer__content__menu__container">
+          @for (menu of menuOptions; track menu) {
+            <div class="footer__content__menu__option"> {{ menu }} </div>
+          }
+        </div>
+        <div class="footer__content__social">
+          <img ngSrc="/assets/icons/facebook.svg" alt="Facebook" priority width="24" height="24" />
+          <img ngSrc="/assets/icons/instagram.svg" alt="Instagram" priority width="24" height="24" />
+          <img ngSrc="/assets/icons/twitter.svg" alt="Twitter" priority width="24" height="24" />
+          <img ngSrc="/assets/icons/linkedin.svg" alt="Linkedin" priority width="24" height="24" />
+          <img ngSrc="/assets/icons/youtube.svg" alt="Youtube" priority width="24" height="24" />
+        </div>
+      </div>
+    </div>
+    <div class="footer__newsletter">
+      <div class="footer__newsletter__title"> Subscribe to get latest updates </div>
+      <div class="footer__newsletter__form">
+        <input placeholder="Type your email" class="footer__newsletter__input" />
+        <button class="footer__newsletter__submit"> Subscribe </button>
+      </div>
+    </div>
+  </div>
+</div>
