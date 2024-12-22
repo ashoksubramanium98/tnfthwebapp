@@ -10,26 +10,32 @@ export class WhatWeDoComponent {
   timelineData = [
     {
       id: 1,
-      title: 'Corporate Experience & Collaborations',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.',
-      icon: '/assets/icons/collaboration.svg',
-    },
-    {
-      id: 2,
       title: 'Emerging Technology Labs',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.',
+      description: 'AI, Cyber Security, Drone, EV, IOT & Sensors, 5G and ERP.',
       icon: '/assets/icons/technology.svg',
     },
     {
+      id: 2,
+      title: 'Corporate Experience & Collaborations',
+      description: 'Global partnerships for advanced research and education.',
+      icon: '/assets/icons/collaboration.svg',
+    },
+    {
       id: 3,
-      title: 'Start-up Support Center',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.',
-      icon: '/assets/icons/support.svg',
+      title: 'Incubation & Innovation Center',
+      description: 'Collaborative environment with high-speed internet, meeting rooms, and printing.',
+      icon: '/assets/icons/innovation.svg',
     },
     {
       id: 4,
-      title: 'Incubation & Innovation Center',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.',
+      title: 'Start-up Support Center',
+      description: 'Support for startups with funding, legal, and business resources.',
+      icon: '/assets/icons/support.svg',
+    },
+    {
+      id: 5,
+      title: 'Overseas University Connecting Center',
+      description: 'Global partnerships for advanced research and education.',
       icon: '/assets/icons/innovation.svg',
     },
   ];

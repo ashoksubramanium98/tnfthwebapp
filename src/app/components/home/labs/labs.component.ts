@@ -15,8 +15,8 @@ export class LabsComponent {
       url: '',
     },
     {
-      title: 'CG Lab',
-      description: 'Collaborative activities like team projects, group discussions, and peer-learning exercises to foster teamwork and innovation.',
+      title: 'Corporate Gateway Lab',
+      description: 'To equip students with essential life skills, behavioral competencies, and workplace readiness to succeed in corporate environments, bridging the gap between technical expertise and professional excellence.',
       backgroundImg: '/assets/labs/cg-lab.png',
       url: '',
     },
