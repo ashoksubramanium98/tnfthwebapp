@@ -1,0 +1,25 @@
+.hero {
+  background: url('/assets/images/home-hero.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  &__container {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    text-align: center;
+    font-size: 64px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+  }
+}

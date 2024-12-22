@@ -1,0 +1,48 @@
+.about {
+  margin: 75px 0;
+  &__container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    &__sub-title {
+      margin-bottom: 20px;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 57px;
+    }
+    &__description {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__action {
+      border: none;
+      color: #fff;
+      background: #012153;
+      border-radius: 4px;
+      width: 146px;
+      height: 51px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    &__action:hover {
+      opacity: 0.9;
+    }
+  }
+  &__video-container {
+    background: url('/assets/images/home-about.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 578px;
+    width: 480px;
+    border-radius: 20px;
+  }
+}
