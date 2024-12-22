@@ -1,1 +1,31 @@
-<p>what-we-do works!</p>
+<div class="what-we-do">
+  <div class="container">
+    <div class="what-we-do__container">
+      <div class="what-we-do__sub-title"> What we do </div>
+      <div class="what-we-do__title"> Some services we provide </div>
+      <div class="what-we-do__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </div>
+      <div class="what-we-do__timeline">
+        @for (item of timelineData; track item.title) {
+          <div class="what-we-do__timeline-item">
+            <div class="content-box" [class.left]="item.id % 2 === 0" [class.right]="item.id % 2 !== 0">
+              @if (item.id % 2 !== 0) {
+                <div class="icon">
+                  <img [src]="item.icon" alt="Icon" />
+                </div>
+              }
+              <div class="text-box">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+              </div>
+              @if (item.id % 2 === 0) {
+                <div class="icon">
+                  <img [src]="item.icon" alt="Icon" />
+                </div>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

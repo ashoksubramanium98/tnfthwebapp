@@ -1,0 +1,111 @@
+.what-we-do {
+  padding: 50px 0;
+  background: #000;
+  &__sub-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  &__description {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 50px 0;
+  }
+  &__timeline {
+    position: relative;
+    height: 620px;
+    padding: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    background: url('/assets/images/home-what-we-do.jpeg') no-repeat center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  &__timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 54%;
+    background: #ffffff;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__timeline-item {
+    position: relative;
+    width: 100%;
+    min-height: 140px;
+  }
+  .content-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    width: 43%;
+  }
+  .content-box.left {
+    left: 5%;
+    justify-content: flex-end;
+  }
+  .content-box.right {
+    right: 5%;
+    justify-content: flex-start;
+  }
+  .text-box {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    text-align: left;
+  }
+  .text-box h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  .text-box p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon img {
+    width: 90px;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .content-box {
+      width: 90%;
+      position: relative;
+      justify-content: center;
+    }
+  
+    .content-box.left,
+    .content-box.right {
+      left: unset;
+      right: unset;
+    }
+  
+    &__timeline::before {
+      left: 5%;
+      transform: none;
+    }
+  }  
+}

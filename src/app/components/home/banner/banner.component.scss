@@ -1,7 +1,7 @@
 .banner {
   margin: 60px 0;
   &__content {
-    background: url('/assets/images/home-page-banner.jpeg');
+    background: url('/assets/images/home-banner.jpeg');
     height: 384px;
     border-radius: 20px;
     background-size: contain;
@@ -23,6 +23,7 @@
       width: 167px;
       height: 51px;
       cursor: pointer;
+      font-size: 16px;
     }
   }
 }
