@@ -1,0 +1,29 @@
+<div class="what-we-do">
+  <div class="container">
+    <div class="what-we-do__container">
+      <div class="what-we-do__content">
+        <div class="what-we-do__content__sub-title"> What we do </div>
+        <div class="what-we-do__content__title"> Some services we provide </div>
+        <div class="what-we-do__content__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </div>
+        <div class="what-we-do__timeline">
+          @for (item of timelineData; track item.title) {
+            <div class="what-we-do__timeline-item">
+              <div class="content-box">
+                <div class="icon">
+                  <img [src]="item.icon" alt="Icon" />
+                </div>
+                <div class="text-box">
+                  <h3>{{ item.title }}</h3>
+                  <p>{{ item.description }}</p>
+                </div>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+      <div class="what-we-do__video-container">
+        
+      </div>
+    </div>
+  </div>
+</div>

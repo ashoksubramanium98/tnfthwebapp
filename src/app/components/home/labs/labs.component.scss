@@ -1,0 +1,79 @@
+.labs {
+  margin: 75px 0;
+  &__sub-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 50px;
+    &__container {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 40px;
+      width: 411px;
+      height: 421px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px; 
+    }
+    &__background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+    }
+    &__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 2;
+    }
+    &__copy {
+      z-index: 3;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: 250px;
+    }
+    &__title {
+      font-size: 24px;
+      color: #fff;
+    }
+    &__description {
+      color: #fff;
+      line-height: 26px;
+    }
+    &__action {
+      border: none;
+      border-radius: 4px;
+      width: 146px;
+      height: 51px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

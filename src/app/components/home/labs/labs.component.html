@@ -1,0 +1,23 @@
+<div class="labs">
+  <div class="container">
+    <div class="labs__container">
+      <div class="labs__sub-title"> Glimps of our labs </div>
+      <div class="labs__title"> Lorem ipsum dolor sit amet consectetur massa ultrices </div>
+      <div class="labs__card">
+        @for (lab of labs; track lab.title) {
+          <div class="labs__card__container">
+            <div class="labs__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
+            <div class="labs__card__overlay"></div>
+            <div class="labs__card__copy">
+              <div class="labs__card__content">
+                <div class="labs__card__title"> {{ lab.title }} </div>
+                <div class="labs__card__description"> {{ lab.description }} </div>
+              </div>
+              <button class="labs__card__action"> Learn more </button>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

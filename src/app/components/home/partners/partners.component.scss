@@ -1,0 +1,29 @@
+.partners {
+  background: #000;
+  padding: 150px 0;
+  &__container {
+    display: grid;
+    grid-template-columns: 43% 53%;
+    gap: 4%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    &__title {
+      font-size: 48px;
+      line-height: 57px;
+      color: #fff;
+    }
+    &__description {
+      color: #ddd;
+    }
+  }
+  &__logo__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
