@@ -14,6 +14,7 @@
   &__card {
     display: flex;
     justify-content: space-between;
+    overflow: scroll;
     gap: 10px;
     margin-top: 50px;
     &__container {

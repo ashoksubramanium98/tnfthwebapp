@@ -1,6 +1,6 @@
 .what-we-do {
   padding: 100px 0;
-  background: #000;
+  background: #0D4B7A;
   &__container {
     display: grid;
     grid-template-columns: 50% 40%;
@@ -21,6 +21,7 @@
       line-height: 57px;
     }
     &__description {
+      color: #D9D9D9;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -73,7 +74,7 @@
     height: auto;
   }
   &__video-container {
-    background: url('/assets/images/home-what-we-do.jpeg');
+    background: url('/assets/images/home-what-we-do.png');
     background-size: cover;
     background-position: center;
     height: 658px;
