@@ -5,9 +5,11 @@
       <div class="partners__content__description"> Lorem ipsum dolor sit amet consectetur. Massa ultricies ultrices sed non est in. Ipsum semper fames enim nec est lobortis mus. Vitae amet sagittis a aliquam. Sed quis sollicitudin rhoncus erat. </div>
     </div>
   </div>
-  <div class="partners__logo__container">
-    @for (img of logoUrls; track img.url) {
-      <img [src]="img.url" [alt]="img.alt" />
-    }
+  <div class="partners__logo__container" (mouseover)="pause()" (mouseleave)="startInfiniteLoop()">
+    <div class="partners__logo__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
+      @for (img of logoUrls; track img.url) {
+        <img [src]="img.url" [alt]="img.alt" class="partners__logo__img" />
+      }
+    </div>
   </div>
 </div>

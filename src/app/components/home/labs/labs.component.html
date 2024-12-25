@@ -6,19 +6,45 @@
     </div>
   </div>
   <div class="labs__card">
-    @for (lab of labs; track lab.title) {
-      <div class="labs__card__container">
-        <div class="labs__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
-        <div class="labs__card__overlay"></div>
-        <div class="labs__card__copy">
-          <div class="labs__card__content">
-            <img [src]="lab.icon" alt="Icon" width="60" height="60" />
-            <div class="labs__card__title"> {{ lab.title }} </div>
-            <div class="labs__card__description"> {{ lab.description }} </div>
+    <div class="labs__card__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
+      @for (lab of labs; track lab.title) {
+        <div class="labs__card__container">
+          <div class="labs__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
+          <div class="labs__card__overlay"></div>
+          <div class="labs__card__copy">
+            <div class="labs__card__content">
+              <img [src]="lab.icon" alt="Icon" width="60" height="60" />
+              <div class="labs__card__title"> {{ lab.title }} </div>
+              <div class="labs__card__description"> {{ lab.description }} </div>
+            </div>
+            <button class="labs__card__action"> Learn more </button>
           </div>
-          <button class="labs__card__action"> Learn more </button>
         </div>
+      }
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="labs__navigation">
+      @if (activePagination !== 1) {
+        <div (click)="handlePreviousLabs()">
+          <img src="/assets/icons/labs_right.svg" alt="Right" priority width="24" height="24" class="labs__navigation__icon" />
+        </div>
+      } @else {
+        <div></div>
+      }
+      <div class="labs__navigation__pagination">
+        @for (item of [].constructor(3); track item; let id = $index) {
+          <div class="labs__navigation__pagination__dot" [class.labs__navigation__pagination__active]="activePagination === (id + 1)"></div> 
+        }
       </div>
-    }
+      @if (activePagination <= 2) {
+        <div (click)="handleNextLabs()">
+          <img src="/assets/icons/labs_left.svg" alt="Left" priority width="24" height="24" class="labs__navigation__icon" />
+        </div>
+      } @else {
+        <div></div>
+      }
+    </div>
   </div>
 </div>

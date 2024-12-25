@@ -16,6 +16,16 @@
     &__sub-title {
       margin-bottom: 20px;
     }
+    &__sub-title::before {
+      content: '';
+      display: block;
+      width: 72px;
+      height: 2px;
+      background: #fff;
+      position: relative;
+      left: -18%;
+      top: 14px;
+    }
     &__title {
       font-size: 48px;
       line-height: 57px;

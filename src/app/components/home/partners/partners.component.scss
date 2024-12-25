@@ -20,11 +20,22 @@
       color: #ddd;
     }
   }
-  &__logo__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: scroll;
-    gap: 40px;
+  &__logo {
+    &__container {
+      width: 100%;
+      overflow: hidden;
+    }
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      transition: transform 0.3s ease-out;
+    }
+    &__img {
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+    }
   }
 }

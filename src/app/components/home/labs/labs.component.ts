@@ -58,4 +58,18 @@ export class LabsComponent {
       url: '',
     },
   ]
+
+  activePagination = 1
+  scrollPosition = 0
+  speed = 1000
+
+  handleNextLabs() {
+    this.activePagination += 1
+    this.scrollPosition += this.speed
+  }
+
+  handlePreviousLabs() {
+    this.activePagination -= 1
+    this.scrollPosition -= this.speed
+  }
 }
