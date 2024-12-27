@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-reach-us-home',
   imports: [NgOptimizedImage],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  templateUrl: './reach-us-home.component.html',
+  styleUrl: './reach-us-home.component.scss'
 })
-export class FooterComponent {
-  menuOptions = ['Home', 'About', 'Services', 'Initiatives', 'Reach Us', 'Internship']
+export class ReachUsHomeComponent {
   socialIcons = [
     { name: 'Facebook', imageUrl: '/assets/icons/facebook.svg', redirectUrl: '' },
     { name: 'Instagram', imageUrl: '/assets/icons/instagram.svg', redirectUrl: '' },

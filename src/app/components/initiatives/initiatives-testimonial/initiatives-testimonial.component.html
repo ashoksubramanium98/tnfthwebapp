@@ -1,0 +1,46 @@
+<div class="initiatives-testimonial">
+  <div class="container">
+    <div class="initiatives-testimonial__content">
+      <div class="initiatives-testimonial__content__sub-title"> Glimps of our initiatives testimonial </div>
+      <div class="initiatives-testimonial__content__title"> Lorem ipsum dolor sit amet consectetur massa ultrices </div>
+    </div>
+  </div>
+  <div class="initiatives-testimonial__card">
+    <div class="initiatives-testimonial__card__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
+      @for (data of dataArr; track data.title) {
+        <div class="initiatives-testimonial__card__container">
+          <img [src]="data.picture" alt="Profile" class="initiatives-testimonial__card__image" />
+          <div class="initiatives-testimonial__card__content">
+            <div class="initiatives-testimonial__card__date"> {{ data.date }} </div>
+            <div class="initiatives-testimonial__card__title"> {{ data.title }} </div>
+            <div class="initiatives-testimonial__card__description"> {{ data.description }} </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="initiatives-testimonial__navigation">
+      @if (activePagination !== 1) {
+        <div (click)="handlePreviousInitiativesTestimonial()">
+          <img src="/assets/icons/labs_right.svg" alt="Right" priority width="24" height="24" class="initiatives-testimonial__navigation__icon" />
+        </div>
+      } @else {
+        <div></div>
+      }
+      <div class="initiatives-testimonial__navigation__pagination">
+        @for (item of [].constructor(dataArr.length); track item; let id = $index) {
+          <div class="initiatives-testimonial__navigation__pagination__dot" [class.initiatives-testimonial__navigation__pagination__active]="activePagination === (id + 1)"></div> 
+        }
+      </div>
+      @if (activePagination <= dataArr.length) {
+        <div (click)="handleNextInitiativesTestimonial()">
+          <img src="/assets/icons/labs_left.svg" alt="Left" priority width="24" height="24" class="initiatives-testimonial__navigation__icon" />
+        </div>
+      } @else {
+        <div></div>
+      }
+    </div>
+  </div>
+</div>

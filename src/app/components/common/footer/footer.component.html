@@ -1,7 +1,10 @@
 <div class="footer">
   <div class="footer__container container">
     <div class="footer__content">
-      <img ngSrc="/assets/images/logo.svg" alt="Logo" class="footer__content__logo" priority width="86" height="44" />
+      <div class="footer__content__logo__container">
+        <img ngSrc="/assets/images/logo.svg" alt="Logo" class="footer__content__logo" priority width="86" height="44" />
+        <div> Powered by <img src="" alt="A2000" class="footer__content__logo" /> </div>
+      </div>
       <div>
         <div class="footer__content__menu__container">
           @for (menu of menuOptions; track menu) {
@@ -9,12 +12,15 @@
           }
         </div>
         <div class="footer__content__social">
-          <img ngSrc="/assets/icons/facebook.svg" alt="Facebook" priority width="24" height="24" />
-          <img ngSrc="/assets/icons/instagram.svg" alt="Instagram" priority width="24" height="24" />
-          <img ngSrc="/assets/icons/twitter.svg" alt="Twitter" priority width="24" height="24" />
-          <img ngSrc="/assets/icons/linkedin.svg" alt="Linkedin" priority width="24" height="24" />
-          <img ngSrc="/assets/icons/youtube.svg" alt="Youtube" priority width="24" height="24" />
+          @for (socialIcon of socialIcons; track socialIcon.name) {
+            <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
+          }
         </div>
+      </div>
+      <div class="footer__content__menu__container">
+        <div class="footer__content__menu__option"> Terms and Conditions </div>
+        <div class="footer__content__menu__option"> Privacy Policy </div>
+        <div class="footer__content__menu__option"> Partner Companies </div>
       </div>
     </div>
     <div class="footer__newsletter">

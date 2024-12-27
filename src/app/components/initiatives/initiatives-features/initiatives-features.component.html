@@ -1,0 +1,25 @@
+<div class="initiatives-features">
+  <div class="container">
+    <div class="initiatives-features__content">
+      <div class="initiatives-features__content__sub-title"> Glimps of our initiatives-features </div>
+      <div class="initiatives-features__content__title"> Client's Media Content </div>
+    </div>
+  </div>
+  <div class="initiatives-features__card">
+    <div class="initiatives-features__card__wrapper">
+      @for (lab of data; track lab.title) {
+        <div class="initiatives-features__card__container">
+          <div class="initiatives-features__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
+          <div class="initiatives-features__card__overlay"></div>
+          <div class="initiatives-features__card__copy">
+            <div class="initiatives-features__card__content">
+              <div class="initiatives-features__card__title"> {{ lab.title }} </div>
+              <div class="initiatives-features__card__description"> {{ lab.description }} </div>
+            </div>
+            <button class="initiatives-features__card__action"> Learn more </button>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
