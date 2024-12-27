@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-header',
@@ -8,5 +9,14 @@ import { NgOptimizedImage } from '@angular/common';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  menuOptions = ['Home', 'About', 'Services', 'Initiatives', 'Reach Us', 'Internship']
+  constructor(private router: Router) {} 
+
+  menuOptions = [
+    { name: 'Home', url: '' }, { name: 'About', url: 'about' }, { name: 'Services', url: 'services' }, { name: 'Initiatives', url: 'initiatives' },
+    { name: 'Reach Us', url: 'contact' }, { name: 'Internship', url: 'internship' }
+  ]
+
+  handleRedirectMenu(name: string) {
+    this.router.navigate([name])
+  }
 }
