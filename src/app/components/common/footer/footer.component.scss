@@ -3,12 +3,18 @@
   padding: 100px 0;
   &__container {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
   }
   &__content {
     display: flex;
-    gap: 100px;
+    gap: 45px;
     &__logo {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
       width: 86px;
       height: 44px;
       border-radius: 4px;
@@ -24,6 +30,10 @@
         display: flex;
         align-items: center;
         font-weight: 400;
+        cursor: pointer;
+      }
+      &__option:hover {
+        opacity: 0.6;
       }
       &__active {
         font-weight: 700;
@@ -33,6 +43,7 @@
       margin-top: 20px;
       display: flex;
       gap: 24px;
+      cursor: pointer;
     }
   }
   &__newsletter {
@@ -42,8 +53,7 @@
     &__title {
       color: #0D4B7A;
       font-weight: 600;
-      font-size: 30px;
-      line-height: 56px;
+      font-size: 20px;
     }
     &__form {
       display: flex;
@@ -51,8 +61,8 @@
     }
     &__input {
       color: #0D4B7A;
-      width: 400px;
-      height: 64px;
+      width: 200px;
+      height: 40px;
       border: 1px solid #0D4B7A;
       padding: 0 16px;
       border-radius: 4px;
@@ -67,7 +77,7 @@
       background: #0D4B7A;
       border-radius: 4px;
       width: 136px;
-      height: 66px;
+      height: 42px;
       cursor: pointer;
       font-size: 16px;
       position: relative;

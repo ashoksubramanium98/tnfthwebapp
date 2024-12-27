@@ -1,1 +1,24 @@
-<p>reach-us-home works!</p>
+<div class="reach-us-home">
+  <div class="container">
+    <div class="reach-us-home__container">
+      <div class="reach-us-home__content">
+        <div class="reach-us-home__content__sub-title"> CONTACT US </div>
+        <div class="reach-us-home__content__title"> Introduction </div>
+        <div class="reach-us-home__content__description">
+          <div>
+            The Tamil Nadu Future technology Hub (TNFTH) is an PPP model initiative led by the IT Ministry of Tamil Nadu and ICT Academy of Tamil Nadu, in partnership with
+            A2000 Solutions Private Limited, Singapore. TNFTH aims to provide experience-based learning opportunities to candidates and SME’s, direct access to emerging technologies, innovation, and research. 
+          </div>
+          <div class="reach-us-home__content__social">
+            @for (socialIcon of socialIcons; track socialIcon.name) {
+              <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
+            }
+          </div>
+        </div>
+      </div>
+      <div class="reach-us-home__video-container">
+        
+      </div>
+    </div>
+  </div>
+</div>

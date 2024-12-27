@@ -13,6 +13,8 @@
     gap: 32px;
     &__sub-title {
       margin-bottom: 20px;
+      letter-spacing: 2px;
+      font-weight: 600;
     }
     &__sub-title::before {
       content: '';
@@ -27,32 +29,18 @@
     &__title {
       font-size: 48px;
       line-height: 57px;
+      font-weight: 700;
     }
     &__description {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    &__action {
-      border: none;
-      color: #fff;
-      background: #0D4B7A;
-      border-radius: 4px;
-      width: 146px;
-      height: 51px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    &__action:hover {
-      opacity: 0.9;
+      color: rgba(82, 85, 96, 1);
     }
   }
   &__video-container {
-    background: url('/assets/images/home-about.jpeg');
+    background: url('/assets/images/initiatives-home.jpeg');
     background-size: cover;
     background-position: center;
-    height: 578px;
-    width: 480px;
+    height: 384px;
+    width: 476px;
     border-radius: 20px;
   }
 }
