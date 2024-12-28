@@ -1,0 +1,20 @@
+<div class="services-modules">
+  <div class="container">
+    <div class="services-modules__title"> Modules </div>
+    <div class="services-modules__container">
+      @for(panel of panels; track $index; let i = $index) {
+        <div class="services-modules__item">
+          <div class="services-modules__header" (click)="togglePanel(i)">
+            {{ panel.title }}
+            <span>{{ panel.isOpen ? '-' : '+' }}</span>
+          </div>
+          @if(panel.isOpen) {
+            <div class="services-modules__content">
+              {{ panel.content }}
+            </div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+
+.services-modules {
+  background: #0D4B7A;
+  padding: 75px 0;
+  &__container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0;
+    color: #fff;
+  }
+  &__item {
+    border-bottom: 1px solid #ddd;
+  }
+  &__header {
+    padding: 15px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content {
+    padding: 15px;
+    background-color: #fff;
+  }
+  &__header:hover {
+    background-color: #e0e0e0;
+  }
+  &__item:last-child {
+    border-bottom: none;
+  }
+}
