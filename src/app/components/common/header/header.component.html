@@ -1,5 +1,5 @@
 <div class="header">
-  <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="86" height="44" />
+  <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" />
   <div class="header__menu__container">
     @for (menu of menuOptions; track menu.url) {
       <div class="header__menu__option" [class.header__menu__active]="isActiveMenu(menu.url)" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>

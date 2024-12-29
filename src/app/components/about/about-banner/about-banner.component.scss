@@ -1,6 +1,6 @@
 .about-banner {
   margin: 75px auto;
-  width: 1148px;
+  width: 1400px;
   &__header {
     font-size: 48px;
     line-height: 57px;
@@ -10,12 +10,12 @@
   }
   &__container {
     display: grid;
-    grid-template-columns: 46% 44%;
+    grid-template-columns: 55% 40%;
     align-items: center;
     justify-content: space-between;
     background: #0D4B7A;
     border-radius: 20px;
-    gap: 10%;
+    gap: 5%;
     padding: 50px;
   }
   &__content {
