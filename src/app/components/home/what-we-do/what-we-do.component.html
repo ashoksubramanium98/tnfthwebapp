@@ -6,8 +6,8 @@
         <div class="what-we-do__content__title"> Some services we provide </div>
         <div class="what-we-do__content__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </div>
         <div class="what-we-do__timeline">
-          @for (item of timelineData; track item.title) {
-            <div class="what-we-do__timeline-item">
+          @for (item of timelineData; track item.title; let i = $index) {
+            <div class="what-we-do__timeline-item" [style.animationDelay]="i * 2 + 's'">
               <div class="content-box">
                 <div class="icon">
                   <img [src]="item.icon" alt="Icon" />

@@ -58,6 +58,10 @@
       background-size: cover;
       background-position: center;
       z-index: 1;
+      transition: transform 0.7s ease-in-out;
+    }
+    &__container:hover &__background-image {
+      transform: scale(1.2);
     }
     &__overlay {
       position: absolute;
