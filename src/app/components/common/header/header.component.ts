@@ -19,4 +19,8 @@ export class HeaderComponent {
   handleRedirectMenu(name: string) {
     this.router.navigate([name])
   }
+
+  isActiveMenu(route: string):boolean {
+    return this.router.url === `/${route}`;
+  }
 }

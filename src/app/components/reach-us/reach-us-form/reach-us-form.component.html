@@ -1,1 +1,36 @@
-<p>reach-us-form works!</p>
+<div class="contact-form">
+  <div class="container">
+    <div class="contact-form__container">
+      <div class="contact-form__title"> Contact Us </div>
+      <div class="contact-form__form-container">
+        <div class="contact-form__fields-container">
+          <div class="contact-form__form-field">
+            <label for="firstName">First Name</label>
+            <input class="contact-form__input" id="firstName" formControlName="firstName" type="text" placeholder="First Name" />
+          </div>
+          <div class="contact-form__form-field">
+            <label for="lastName">Last Name</label>
+            <input class="contact-form__input" id="lastName" formControlName="lastName" type="text" placeholder="Last Name" />
+          </div>
+        </div>
+        <div class="contact-form__fields-container">
+          <div class="contact-form__form-field">
+            <label for="email">Email Id</label>
+            <input class="contact-form__input" id="email" formControlName="email" type="email" placeholder="johndoe@gmail.com" />
+          </div>
+          <div class="contact-form__form-field">
+            <label for="subject">Subject</label>
+            <input class="contact-form__input" id="subject" formControlName="subject" type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="contact-form__form-field">
+          <label for="message">Message</label>
+          <textarea class="contact-form__input contact-form__textarea" id="message" formControlName="message" placeholder="Type your Message"></textarea>
+        </div>
+        <div class="contact-form__action-container">
+          <button class="contact-form__action" [disabled]="!contactForm.valid"> Send Message </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,6 @@
 
 .services-modules {
-  background: #0D4B7A;
-  padding: 75px 0;
+  padding: 50px 0;
   &__container {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -10,28 +9,26 @@
     font-size: 24px;
     font-weight: 500;
     margin: 30px 0;
-    color: #fff;
   }
-  &__item {
-    border-bottom: 1px solid #ddd;
+  &__description {
+    color: rgba(82, 85, 96, 1);
   }
-  &__header {
-    padding: 15px;
-    background-color: #f7f7f7;
-    cursor: pointer;
-    font-weight: bold;
+  &__data {
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
   }
   &__content {
-    padding: 15px;
-    background-color: #fff;
-  }
-  &__header:hover {
-    background-color: #e0e0e0;
-  }
-  &__item:last-child {
-    border-bottom: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    &__title {
+      font-weight: 600;
+    }
+    &__info {
+      color: rgba(82, 85, 96, 1);
+    }
   }
 }

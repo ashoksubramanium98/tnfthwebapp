@@ -1,1 +1,24 @@
-<p>about-core-values works!</p>
+<div class="about-core-values">
+  <div class="container">
+    <div class="about-core-values__content">
+      <div class="about-core-values__content__title"> Core Values </div>
+      <div class="about-core-values__content__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh. </div>
+    </div>
+  </div>
+  <div class="about-core-values__card">
+    <div class="about-core-values__card__wrapper">
+      @for (lab of data; track lab.title) {
+        <div class="about-core-values__card__container">
+          <div class="about-core-values__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
+          <div class="about-core-values__card__overlay"></div>
+          <div class="about-core-values__card__copy">
+            <div class="about-core-values__card__content">
+              <div class="about-core-values__card__title"> {{ lab.title }} </div>
+              <div class="about-core-values__card__description"> {{ lab.description }} </div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>

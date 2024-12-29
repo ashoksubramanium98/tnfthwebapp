@@ -1,5 +1,5 @@
 .about {
-  margin: 75px 0;
+  padding: 75px 0;
   &__container {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
     &__sub-title {
       margin-bottom: 20px;
     }
@@ -47,12 +50,19 @@
       opacity: 0.9;
     }
   }
-  &__video-container {
+  &__video {
     background: url('/assets/images/home-about.jpeg');
     background-size: cover;
     background-position: center;
     height: 578px;
     width: 480px;
     border-radius: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.6s ease, transform 1.6s ease;
+  }
+  &__visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
