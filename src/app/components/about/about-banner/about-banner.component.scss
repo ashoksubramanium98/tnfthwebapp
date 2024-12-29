@@ -1,0 +1,47 @@
+.about-banner {
+  margin: 75px auto;
+  width: 1148px;
+  &__header {
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: 46% 44%;
+    align-items: center;
+    justify-content: space-between;
+    background: #0D4B7A;
+    border-radius: 20px;
+    gap: 10%;
+    padding: 50px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+    &__sub-title {
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 57px;
+      font-weight: 700;
+    }
+    &__description {
+      color: #ddd;
+    }
+  }
+  &__video-container {
+    background: url('/assets/images/about-banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 384px;
+    width: 476px;
+    border-radius: 20px;
+  }
+}
