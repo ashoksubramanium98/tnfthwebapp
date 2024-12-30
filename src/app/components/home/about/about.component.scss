@@ -14,10 +14,7 @@
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease, transform 0.8s ease;
-    &__sub-title {
-      margin-bottom: 20px;
-    }
-    &__sub-title::before {
+    &__title::before {
       content: '';
       display: block;
       width: 72px;
@@ -35,19 +32,6 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-    }
-    &__action {
-      border: none;
-      color: #fff;
-      background: #0D4B7A;
-      border-radius: 4px;
-      width: 146px;
-      height: 51px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    &__action:hover {
-      opacity: 0.9;
     }
   }
   &__video {

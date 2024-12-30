@@ -10,32 +10,32 @@ export class WhatWeDoComponent {
   timelineData = [
     {
       id: 1,
-      title: 'Emerging Technology Labs',
-      description: 'AI, Cyber Security, Drone, EV, IOT & Sensors, 5G and ERP.',
+      title: 'Initial Engagement',
+      description: 'Connect with our team to explore your goals and opportunities.',
       icon: '/assets/icons/technology.svg',
     },
     {
       id: 2,
-      title: 'Corporate Experience & Collaborations',
-      description: 'Global partnerships for advanced research and education.',
+      title: 'Skill Development',
+      description: 'Gain hands-on experience through our specialized labs and programs.',
       icon: '/assets/icons/collaboration.svg',
     },
     {
       id: 3,
-      title: 'Incubation & Innovation Center',
-      description: 'Collaborative environment with high-speed internet, meeting rooms, and printing.',
+      title: 'Mentorship and Networking',
+      description: 'Collaborate with experts and peers to refine your ideas.',
       icon: '/assets/icons/innovation.svg',
     },
     {
       id: 4,
-      title: 'Start-up Support Center',
-      description: 'Support for startups with funding, legal, and business resources.',
+      title: 'Innovation in Action',
+      description: 'Apply your learning to real-world projects, internships, or research.',
       icon: '/assets/icons/support.svg',
     },
     {
       id: 5,
-      title: 'Overseas University Connecting Center',
-      description: 'Global partnerships for advanced research and education.',
+      title: 'Success Milestones',
+      description: 'Launch your venture, secure global opportunities, or advance your career.',
       icon: '/assets/icons/innovation.svg',
     },
   ];

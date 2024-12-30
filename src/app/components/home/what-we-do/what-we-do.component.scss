@@ -13,10 +13,7 @@
     flex-direction: column;
     gap: 32px;
     color: #fff;
-    &__sub-title {
-      margin-bottom: 20px;
-    }
-    &__sub-title::before {
+    &__title::before {
       content: '';
       display: block;
       width: 72px;

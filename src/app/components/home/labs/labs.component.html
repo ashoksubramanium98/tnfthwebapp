@@ -1,8 +1,7 @@
 <div class="labs">
   <div class="container">
     <div class="labs__container">
-      <div class="labs__sub-title"> Glimps of our labs </div>
-      <div class="labs__title"> Lorem ipsum dolor sit amet consectetur massa ultrices </div>
+      <div class="labs__title"> SERVICES </div>
     </div>
   </div>
   <div class="labs__card">
@@ -34,11 +33,11 @@
         <div></div>
       }
       <div class="labs__navigation__pagination">
-        @for (item of [].constructor(3); track item; let id = $index) {
+        @for (item of [].constructor(labs.length); track item; let id = $index) {
           <div class="labs__navigation__pagination__dot" [class.labs__navigation__pagination__active]="activePagination === (id + 1)"></div> 
         }
       </div>
-      @if (activePagination <= 2) {
+      @if (activePagination <= labs.length) {
         <div (click)="handleNextLabs()">
           <img src="/assets/icons/labs_left.svg" alt="Left" priority width="24" height="24" class="labs__navigation__icon" />
         </div>
