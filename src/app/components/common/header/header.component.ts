@@ -11,9 +11,18 @@ import { Router } from '@angular/router'
 export class HeaderComponent {
   constructor(private router: Router) {} 
 
+  activeMenuDropdown:string | null = null;
+  activeSubMenuDropdown:string | null = 'emergingTech';
   menuOptions = [
-    { name: 'Home', url: '' }, { name: 'About', url: 'about' }, { name: 'Services', url: 'services' }, { name: 'Initiatives', url: 'initiatives' },
-    { name: 'Reach Us', url: 'contact' }, { name: 'Internship', url: 'internship' }
+    { id: 'home', name: 'Home', subMenu: false, url: '' }, { id: 'about', name: 'About', subMenu: false, url: 'about' },
+    { id: 'services', name: 'Services', subMenu: true, url: 'services' }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
+    { id: 'contact', name: 'Reach Us', subMenu: false, url: 'contact' }, { id: 'internship', name: 'Internship', subMenu: false, url: 'internship' }
+  ]
+
+  servicesMenuOptions = [
+    { id: 'emergingTech', name: 'Emerging Technology Labs' }, { id: 'corporate', name: 'Corporate Experience & Collaborations' },
+    { id: 'support', name: 'Start-up Support Center' }, { id: 'connect', name: 'Overseas University Connecting Center' },
+    { id: 'incubation', name: 'Incubation & Innovation Center' }
   ]
 
   handleRedirectMenu(name: string) {
@@ -22,5 +31,17 @@ export class HeaderComponent {
 
   isActiveMenu(route: string):boolean {
     return this.router.url === `/${route}`;
+  }
+
+  handleShowMenuModal(menu: string): void {
+    this.activeMenuDropdown = menu;
+  }
+  closeDropdownModal(): void {
+    this.activeMenuDropdown = null;
+    this.activeSubMenuDropdown = null;
+  }
+
+  handleShowSubMenuOptions(menu: string): void {
+    this.activeSubMenuDropdown = menu;
   }
 }
