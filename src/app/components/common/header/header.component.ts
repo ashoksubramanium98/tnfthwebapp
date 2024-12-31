@@ -25,6 +25,20 @@ export class HeaderComponent {
     { id: 'incubation', name: 'Incubation & Innovation Center' }
   ]
 
+  emergingTechMenuOptions = [
+    { name: 'Artificial Intelligence', icon: '/assets/icons/ai.png', url: 'services/artificial-intelligence' },
+    { name: 'Cyber Security', icon: '/assets/icons/security.png', url: 'services/cyber-security' },
+    { name: 'Drone Technology', icon: '/assets/icons/drone.png', url: 'services/drone-technology' },
+    { name: 'Electric Vehicle Ecosystem', icon: '/assets/icons/electric.png', url: 'services/electric-vehicle-ecosystem' },
+    { name: '5G Technology', icon: '/assets/icons/5g.png', url: 'services/5g-technology' },
+    { name: 'ERP', icon: '/assets/icons/erp.png', url: 'services/erp' }
+  ]
+
+  corporateMenuOptions = [
+    { name: 'Corporate Gateway Lab', icon: '/assets/icons/ai.png', url: 'services/corporate-gateway-lab' },
+    { name: 'Corporate Experience Center', icon: '/assets/icons/security.png', url: 'services/corporate-experience-center' }
+  ]
+
   handleRedirectMenu(name: string) {
     this.router.navigate([name])
   }

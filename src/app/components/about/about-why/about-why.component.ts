@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-about-why',
@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './about-why.component.html',
   styleUrl: './about-why.component.scss'
 })
-export class AboutWhyComponent {
+export class AboutWhyComponent implements AfterViewInit {
+
   data = [
     {
       title: 'Industry Partnerships',
@@ -24,4 +25,22 @@ export class AboutWhyComponent {
       backgroundImg: '/assets/labs/hub.jpeg'
     }
   ]
+
+  ngAfterViewInit(): void {
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.intersectionRatio >= 0.5) {
+            entry.target.classList.add('about-why__visible');
+          }  else {
+            entry.target.classList.remove('about-why__visible');
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    const sections = document.querySelectorAll('.about-why__content, .about-why__video');
+    sections.forEach(section => observer.observe(section));
+  }
 }

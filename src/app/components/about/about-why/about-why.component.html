@@ -1,23 +1,20 @@
 <div class="about-why">
   <div class="container">
-    <div class="about-why__content">
-      <div class="about-why__content__title"> Why TNFTH? </div>
-    </div>
-  </div>
-  <div class="about-why__card">
-    <div class="about-why__card__wrapper">
-      @for (lab of data; track lab.title) {
-        <div class="about-why__card__container">
-          <div class="about-why__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
-          <div class="about-why__card__overlay"></div>
-          <div class="about-why__card__copy">
-            <div class="about-why__card__content">
+    <div class="about-why__container">
+      <div class="about-why__content" id="content-section">
+        <div class="about-why__content__title"> Why TNFTH? </div>
+        <ul class="about-why__card-container">
+          @for (lab of data; track lab.title) {
+            <li class="about-why__card">
               <div class="about-why__card__title"> {{ lab.title }} </div>
               <div class="about-why__card__description"> {{ lab.description }} </div>
-            </div>
-          </div>
-        </div>
-      }
+            </li>
+          }
+        </ul>
+      </div>
+      <div class="about-why__video" id="image-section">
+        
+      </div>
     </div>
   </div>
 </div>
