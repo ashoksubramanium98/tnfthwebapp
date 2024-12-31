@@ -9,22 +9,24 @@ import { Component } from '@angular/core';
 export class AboutCoreValuesComponent {
   data = [
     {
-      title: 'ARTIFICIAL INTELLIGENCE',
-      description: 'Foundational knowledge and technical training for each technology field to ensure industry readiness.',
-      backgroundImg: '/assets/labs/core-lab.jpeg',
-      url: '',
+      title: 'Experience-Based Learning',
+      description: 'Immersive labs and programs in cutting-edge fields like AI, IoT, EV, and cybersecurity.',
+      backgroundImg: '/assets/labs/core-lab.jpeg'
     },
     {
-      title: 'CYBER SECURITY',
-      description: 'To equip students with essential life skills, behavioral competencies, and workplace readiness to succeed in corporate environments, bridging the gap between technical expertise and professional excellence.',
-      backgroundImg: '/assets/labs/cg-lab.png',
-      url: '',
+      title: 'Start-Up Support Ecosystem',
+      description: 'Comprehensive resources, mentorship, and funding opportunities for entrepreneurs.',
+      backgroundImg: '/assets/labs/cg-lab.png'
     },
     {
-      title: 'DRONE TECHNOLOGY',
-      description: 'Real-world skill application through live projects, problem-solving tasks, and innovation challenges in a simulated professional environment.',
-      backgroundImg: '/assets/labs/hub.jpeg',
-      url: '',
+      title: 'Incubation and Innovation Centers',
+      description: 'Infrastructure and guidance to turn ideas into viable business models.',
+      backgroundImg: '/assets/labs/hub.jpeg'
     },
+    {
+      title: 'Global Collaborations',
+      description: 'Partnerships with world-class universities and organizations for international learning and research.',
+      backgroundImg: '/assets/labs/core-lab.jpeg'
+    }
   ]
 }
