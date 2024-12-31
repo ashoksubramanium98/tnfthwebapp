@@ -29,7 +29,7 @@ export const routes: Routes = [
     title: 'Internship',
   },
   {
-    path: 'services',
+    path: 'services/:serviceId',
     component: ServicesComponent,
     title: 'Services',
   },

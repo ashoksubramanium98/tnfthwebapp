@@ -15,14 +15,15 @@ export class HeaderComponent {
   activeSubMenuDropdown:string | null = 'emergingTech';
   menuOptions = [
     { id: 'home', name: 'Home', subMenu: false, url: '' }, { id: 'about', name: 'About', subMenu: false, url: 'about' },
-    { id: 'services', name: 'Services', subMenu: true, url: 'services' }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
+    { id: 'services', name: 'Services', subMenu: true, url: null }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
     { id: 'contact', name: 'Reach Us', subMenu: false, url: 'contact' }, { id: 'internship', name: 'Internship', subMenu: false, url: 'internship' }
   ]
 
   servicesMenuOptions = [
-    { id: 'emergingTech', name: 'Emerging Technology Labs' }, { id: 'corporate', name: 'Corporate Experience & Collaborations' },
-    { id: 'support', name: 'Start-up Support Center' }, { id: 'connect', name: 'Overseas University Connecting Center' },
-    { id: 'incubation', name: 'Incubation & Innovation Center' }
+    { id: 'emergingTech', name: 'Emerging Technology Labs', url: null }, { id: 'corporate', name: 'Corporate Experience & Collaborations', url: null },
+    { id: 'support', name: 'Start-up Support Center', url: 'services/start-up-support-center' },
+    { id: 'connect', name: 'Overseas University Connecting Center', url: 'services/overseas-university-connecting-center' },
+    { id: 'incubation', name: 'Incubation & Innovation Center', url: 'services/incubation-innovation-center' }
   ]
 
   emergingTechMenuOptions = [
@@ -39,11 +40,14 @@ export class HeaderComponent {
     { name: 'Corporate Experience Center', icon: '/assets/icons/security.png', url: 'services/corporate-experience-center' }
   ]
 
-  handleRedirectMenu(name: string) {
-    this.router.navigate([name])
+  handleRedirectMenu(name: string | null) {
+    if (name !== null) {
+      this.router.navigate([name])
+      this.closeDropdownModal()
+    }
   }
 
-  isActiveMenu(route: string):boolean {
+  isActiveMenu(route: string | null):boolean {
     return this.router.url === `/${route}`;
   }
 

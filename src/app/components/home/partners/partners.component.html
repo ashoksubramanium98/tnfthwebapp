@@ -7,7 +7,7 @@
   </div>
   <div class="partners__logo__container" (mouseover)="pause()" (mouseleave)="startInfiniteLoop()">
     <div class="partners__logo__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
-      @for (img of logoUrls; track img.url) {
+      @for (img of logoUrls; track img.id) {
         <img [src]="img.url" [alt]="img.alt" class="partners__logo__img" />
       }
     </div>
