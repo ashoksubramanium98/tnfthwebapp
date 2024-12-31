@@ -52,22 +52,4 @@
     font-size: 20px;
     line-height: 24px;
   }
-  &__action {
-    border: none;
-    border-radius: 4px;
-    color: #000;
-    background: #fff;
-    width: 237px;
-    height: 56px;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    &__icon {
-      width: 24px;
-      height: 24px;
-    }
-  }
 }

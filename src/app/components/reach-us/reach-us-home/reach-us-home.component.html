@@ -2,17 +2,48 @@
   <div class="container">
     <div class="reach-us-home__container">
       <div class="reach-us-home__content">
-        <div class="reach-us-home__content__sub-title"> CONTACT US </div>
-        <div class="reach-us-home__content__title"> Introduction </div>
+        <div class="reach-us-home__content__title"> We’re Here to Help </div>
         <div class="reach-us-home__content__description">
           <div>
-            The Tamil Nadu Future technology Hub (TNFTH) is an PPP model initiative led by the IT Ministry of Tamil Nadu and ICT Academy of Tamil Nadu, in partnership with
-            A2000 Solutions Private Limited, Singapore. TNFTH aims to provide experience-based learning opportunities to candidates and SME’s, direct access to emerging technologies, innovation, and research. 
+            Whether you’re looking to explore learning opportunities, collaborate on innovative projects, or join our ecosystem of entrepreneurs and researchers, we’d love to hear from you! Connect with us and take the first step toward shaping your future with TNFTH.
           </div>
-          <div class="reach-us-home__content__social">
-            @for (socialIcon of socialIcons; track socialIcon.name) {
-              <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
-            }
+
+          <div class="reach-us-home__social__container">
+            <div class="reach-us-home__social__content__title"> Our Location </div>
+            <div>
+              <div> Tamil Nadu Future Technology Hub (TNFTH) </div>
+              <div> [Insert Complete Address] </div>
+              <div> Chennai, Tamil Nadu, India </div>
+            </div>
+          </div>
+
+          <div class="reach-us-home__social__container">
+            <div class="reach-us-home__social__content__title"> Contact Details </div>
+            <ul>
+             <li> Phone: </li>
+             <li> Email: </li>
+            </ul>
+          </div>
+
+          <div class="reach-us-home__social__container">
+            <div class="reach-us-home__social__content__title"> Working Hours </div>
+            <ul>
+             <li> Monday to Friday: 9:00 AM – 6:00 PM </li>
+             <li> Saturday: 10:00 AM – 2:00 PM </li>
+             <li> Closed on Sundays and Public Holidays </li>
+            </ul>
+          </div>
+
+          <div class="reach-us-home__social__container">
+            <div class="reach-us-home__social__content">
+              <div class="reach-us-home__social__content__title"> Follow Us </div>
+              <div> Stay connected with TNFTH on social media for updates, announcements, and more: </div>
+            </div>
+            <div class="reach-us-home__social__links">
+              @for (socialIcon of socialIcons; track socialIcon.name) {
+                <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
+              }
+            </div>
           </div>
         </div>
       </div>
