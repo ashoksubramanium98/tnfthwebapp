@@ -1,6 +1,12 @@
 
-.services-modules {
-  padding: 50px 0;
+.internship-modules {
+  &__outer1 {
+    padding: 50px 0;
+    background: #0D4B7A;
+  }
+  &__outer2 {
+    margin: 175px 0;
+  }
   &__container1 {
     display: grid;
     grid-template-columns: 55% 40%;

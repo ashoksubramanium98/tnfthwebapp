@@ -1,10 +1,10 @@
 <div class="header">
   <div class="header__container">
-    <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" />
+    <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" (click)="handleShowSubMenuOptions('')" />
     <div class="header__menu__container">
-      @for (menu of menuOptions; track menu.url) {
+      @for (menu of menuOptions; track menu.id) {
         <div class="header__menu__option" [class.header__menu__active]="isActiveMenu(menu.url)" (click)="handleRedirectMenu(menu.url)"
-          (mouseover)="handleShowMenuModal(menu.name)"
+          (mouseover)="handleShowMenuModal(menu.id)"
         > {{ menu.name }} </div>
       }
     </div>
@@ -12,43 +12,30 @@
 </div>
 
 <div>
-  @if (activeMenuDropdown === 'Services') {
+  @if (activeMenuDropdown === menuOptions[2].id) {
     <div class="header__dropdown-modal" (mouseleave)="closeDropdownModal()">
       <div class="header__dropdown-modal__content">
         <div class="header__dropdown-modal__content-left">
           @for (menu of servicesMenuOptions; track menu.id; let i = $index) {
-            <div class="header__dropdown-modal__content-left__title" (mouseover)="handleShowSubMenuOptions(menu.id)"> {{ i + 1 }} {{ menu.name }} </div>
+            <div class="header__dropdown-modal__content-left__title" (mouseover)="handleShowSubMenuOptions(menu.id)" (click)="handleRedirectMenu(menu.url)">
+              <span> {{ i + 1 }} </span> {{ menu.name }} </div>
           }
         </div>
         <div class="header__dropdown-modal__divider"></div>
         <div class="header__dropdown-modal__content-right">
-          @if (activeSubMenuDropdown === 'emergingTech') {
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🌟</span> Artificial Intelligence
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🚀</span> Cyber Security
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">💧</span> Drone Technology
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🏠</span> Electric Vehicle Ecosystem
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🏠</span> 5G Technology
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🏠</span> ERP
-            </div>
+          @if (activeSubMenuDropdown === servicesMenuOptions[0].id) {
+            @for (menu of emergingTechMenuOptions; track menu.url) {
+              <div class="header__dropdown-modal__content-right__data" (click)="handleRedirectMenu(menu.url)">
+                <img [src]="menu.icon" class="header__dropdown-modal__icon" /> {{ menu.name }}
+              </div>
+            }
           }
-          @if (activeSubMenuDropdown === 'corporate') {
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🌟</span> Corporate Gateway Lab
-            </div>
-            <div class="header__dropdown-modal__content-right__data">
-              <span class="header__dropdown-modal__icon">🚀</span> Corporate Experience Center
-            </div>
+          @if (activeSubMenuDropdown === servicesMenuOptions[1].id) {
+            @for (menu of corporateMenuOptions; track menu.url) {
+              <div class="header__dropdown-modal__content-right__data" (click)="handleRedirectMenu(menu.url)">
+                <img [src]="menu.icon" class="header__dropdown-modal__icon" /> {{ menu.name }}
+              </div>
+            }
           }
         </div>
       </div>

@@ -1,0 +1,730 @@
+[
+  {
+    "id": "artificial-intelligence",
+    "title": "Artificial Intelligence (AI)",
+    "description": "Artificial Intelligence (AI) is not just a futuristic concept; it’s a transformative force driving innovation across industries such as healthcare, entertainment, and finance. By leveraging AI’s ability to process complex datasets, identify patterns, and make intelligent decisions, businesses are revolutionizing operations and unlocking unparalleled efficiency. At TNFTH’s AI Lab, we bring AI’s real-world potential to life, providing a platform for creativity, innovation, and impactful solutions.",
+    "contributions": {
+      "title": "TNFTH's Contributions to the AI Ecosystem",
+      "description": "At TNFTH, we empower learners and professionals with the resources and expertise needed to excel in AI. Here’s what we offer:",
+      "data": [
+        {
+          "title": "Cutting-Edge AI Tools and Frameworks",
+          "description": "Gain access to the latest AI technologies to create innovative solutions."
+        },
+        {
+          "title": "Expert Guidance",
+          "description": "Learn from seasoned AI researchers and industry professionals who bring extensive experience."
+        },
+        {
+          "title": "Hands-On Project Experience",
+          "description": "Work on live AI-based projects addressing real-world challenges to develop practical skills."
+        },
+        {
+          "title": "Collaborative Innovation",
+          "description": "Partner with like-minded peers on exciting innovation challenges to push boundaries."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Our AI Lab ensures you acquire both foundational knowledge and advanced expertise, empowering you with:",
+      "data": [
+        {
+          "title": "Core AI Concepts",
+          "description": "Master essential topics like machine learning, neural networks, and natural language processing."
+        },
+        {
+          "title": "Problem-Solving with AI",
+          "description": "Learn how to apply AI-driven approaches to analyze and solve complex problems."
+        },
+        {
+          "title": "Industry Integration",
+          "description": "Explore how AI transforms industries by driving automation, predictive analytics, and smart decision-making."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities with AI Expertise",
+      "description": "The scope of AI extends beyond imagination, offering lucrative career opportunities such as:",
+      "data": [
+        {
+          "title": "Machine Learning Engineer",
+          "description": "Develop and deploy predictive models."
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Uncover actionable insights using data analysis."
+        },
+        {
+          "title": "AI Consultant",
+          "description": "Help businesses leverage AI for strategic growth."
+        },
+        {
+          "title": "AI Researcher",
+          "description": "Contribute to groundbreaking advancements in artificial intelligence."
+        }
+      ],
+      "info": "Participants from TNFTH’s AI Lab will emerge as pioneers in AI, ready to join global tech giants, lead innovative startups, or even launch their own AI-driven ventures."
+    },
+    "meta": {
+      "title": "Unlock AI's Potential: Learn Machine Learning, Neural Networks, and More at TNFTH",
+      "description": "Discover the transformative power of Artificial Intelligence at TNFTH’s AI Lab. Gain hands-on experience, master AI tools, and unlock career opportunities in machine learning, data science, and AI research."
+    }
+  },
+  {
+    "id": "cyber-security",
+    "title": "Cyber Security",
+    "description": "In today’s hyper-connected world, cybersecurity has become the backbone of digital safety. From protecting sensitive personal data to securing critical national infrastructure, the need for skilled cybersecurity professionals is at an all-time high. At TNFTH’s Cyber Security Lab, we equip participants with the knowledge and tools to anticipate, identify, and neutralize cyber threats, ensuring a safer digital future.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to Cybersecurity Training",
+      "description": "Our Cyber Security Lab is designed to empower participants with industry-relevant skills and cutting-edge tools. Here’s how we prepare you for success:",
+      "data": [
+        {
+          "title": "Access to Advanced Cybersecurity Tools",
+          "description": "Learn to leverage state-of-the-art technologies to protect systems and data."
+        },
+        {
+          "title": "Interactive Learning",
+          "description": "Participate in engaging sessions on ethical hacking, threat analysis, and incident response."
+        },
+        {
+          "title": "Expert Guidance",
+          "description": "Gain insights and mentorship from experienced cybersecurity professionals."
+        },
+        {
+          "title": "Practical Experience",
+          "description": "Work on real-world projects to apply your knowledge and build confidence in managing security challenges."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Our comprehensive program ensures participants master the essentials of cybersecurity, including:",
+      "data": [
+        {
+          "title": "Security Frameworks and Protocols",
+          "description": "Develop a strong foundation in implementing and maintaining security systems."
+        },
+        {
+          "title": "Threat Mitigation",
+          "description": "Identify vulnerabilities and implement proactive strategies to prevent cyberattacks."
+        },
+        {
+          "title": "Incident Management",
+          "description": "Learn effective response techniques for managing cybersecurity incidents, ensuring swift recovery."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities in Cybersecurity",
+      "description": "The field of cybersecurity offers diverse and rewarding career paths. Upon completing TNFTH’s Cyber Security Lab, participants will be well-prepared for roles such as:",
+      "data": [
+        {
+          "title": "Ethical Hacker",
+          "description": " Safeguard systems by testing and securing vulnerabilities."
+        },
+        {
+          "title": "Cybersecurity Analyst",
+          "description": "Monitor, assess, and defend against cyber threats."
+        },
+        {
+          "title": "Information Security Manager",
+          "description": "Develop and enforce security policies for organizations."
+        }
+      ],
+      "info": "Graduates will have the skills and expertise to excel in top tech firms, multinational corporations, government agencies, or even their own cybersecurity ventures."
+    },
+    "meta": {
+      "title": "Master Cybersecurity: Learn Ethical Hacking, Threat Analysis, and More at TNFTH",
+      "description": "Protect the digital world with TNFTH’s Cyber Security Lab. Learn ethical hacking, manage incidents, and mitigate threats with hands-on training. Secure top roles as a cybersecurity analyst, ethical hacker, or security manager."
+    }
+  },
+  {
+    "id": "drone-technology",
+    "title": "Drone Technology",
+    "description": "Drones are transforming industries with their versatility, precision, and efficiency. From revolutionizing logistics and agriculture to enhancing defense capabilities, drones have become a vital tool for innovation. At TNFTH’s Drone Lab, participants dive into the cutting-edge world of drone technology, gaining the skills needed to design, operate, and deploy drones for a variety of applications.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to Drone Technology Training",
+      "description": "",
+      "data": [
+        {
+          "title": "Access to Advanced Drone Simulation Tools and Prototypes",
+          "description": "Experiment with state-of-the-art technology to understand the intricacies of drone operation."
+        },
+        {
+          "title": "Comprehensive Training Modules",
+          "description": "Learn everything from drone design and flight control to regulatory compliance."
+        },
+        {
+          "title": "Industry-Relevant Projects",
+          "description": "Collaborate on real-world applications of drones, solving challenges across sectors."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Our comprehensive program ensures a thorough understanding of drone technology and its applications, including:",
+      "data": [
+        {
+          "title": "Core Principles of Drone Technology",
+          "description": "Gain insights into aerodynamics, navigation, and flight mechanics."
+        },
+        {
+          "title": "Regulatory and Safety Protocols",
+          "description": "Learn the regulatory frameworks and best practices for safe drone operation."
+        },
+        {
+          "title": "Innovative Drone Applications",
+          "description": "Explore creative uses of drones to solve real-world challenges in logistics, urban planning, and beyond."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities with Drone Expertise",
+      "description": "Drone technology is unlocking opportunities across various industries, creating demand for skilled professionals. Participants of TNFTH’s Drone Lab will be equipped to pursue roles in:",
+      "data": [
+        {
+          "title": "Drone Design and Manufacturing",
+          "description": "Innovate and build advanced drone systems."
+        },
+        {
+          "title": "Drone Deployment and Operations",
+          "description": "Manage and operate drones in industries such as logistics, agriculture, and surveillance."
+        },
+        {
+          "title": "Urban Planning and Environmental Monitoring",
+          "description": "Use drones for mapping, disaster management, and resource assessment."
+        }
+      ],
+      "info": "Graduates will emerge as pioneers in the rapidly evolving field of drone technology, ready to make a mark in startups, established enterprises, or independent ventures."
+    },
+    "meta": {
+      "title": "Master Drone Technology: Design, Operate, and Innovate with TNFTH",
+      "description": "Explore the future of innovation at TNFTH’s Drone Lab. Learn drone design, flight control, and regulatory compliance through hands-on training. Build a career in industries like logistics, agriculture, urban planning, and defense."
+    }
+  },
+  {
+    "id": "electric-vehicle-ecosystem",
+    "title": "Electric Vehicles (EV)",
+    "description": "The electric vehicle (EV) revolution is driving the shift towards sustainable development, paving the way for a cleaner, greener future. With advancements in EV technology, from energy-efficient battery systems to smart vehicle integration, this field represents the forefront of innovation. At TNFTH’s EV Lab, participants gain hands-on experience and in-depth knowledge of the cutting-edge technology powering electric vehicles.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to EV Technology Training",
+      "description": "Our EV Lab is designed to provide learners with the expertise and tools required to excel in the dynamic field of electric vehicles. Here's what we offer:",
+      "data": [
+        {
+          "title": "Access to Real-World EV Components",
+          "description": "Experiment with advanced tools and components to gain practical skills in EV technology."
+        },
+        {
+          "title": "Expert Insights",
+          "description": "Learn from industry leaders specializing in sustainable transportation and cutting-edge EV advancements."
+        },
+        {
+          "title": "Prototype Development",
+          "description": " Work on real-world projects to design and innovate sustainable EV solutions."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants will build a comprehensive understanding of EV technology and its applications, including:",
+      "data": [
+        {
+          "title": "EV Mechanics and Dynamics",
+          "description": "Dive into the principles behind electric vehicle operation and design."
+        },
+        {
+          "title": "Battery Systems and Charging Infrastructure",
+          "description": "Explore energy-efficient batteries, charging solutions, and their role in sustainable transportation."
+        },
+        {
+          "title": "Smart Vehicle Technologies",
+          "description": "Understand the integration of smart systems, such as IoT and AI, into modern EVs for enhanced functionality."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities in the EV Industry",
+      "description": "The EV sector offers a multitude of career opportunities in sustainable technology and transportation. Upon completing TNFTH’s EV Lab program, participants will be ready to excel in roles such as:",
+      "data": [
+        {
+          "title": "EV System Designer",
+          "description": "Innovate and design next-generation electric vehicles."
+        },
+        {
+          "title": "Battery Technology Specialist",
+          "description": "Focus on developing energy-efficient and sustainable battery systems."
+        },
+        {
+          "title": "Sustainable Energy Consultant",
+          "description": "Advise on and implement clean energy solutions in transportation and beyond."
+        }
+      ],
+      "info": "Graduates from TNFTH’s EV Lab will be equipped with the knowledge and skills to thrive in startups, global automotive firms, or independent ventures in the rapidly evolving EV industry."
+    },
+    "meta": {
+      "title": "Master Electric Vehicle Technology: Learn Design, Battery Systems, and Smart Integration",
+      "description": "Step into the future of transportation with TNFTH’s EV Lab. Gain expertise in EV mechanics, energy-efficient batteries, and smart technologies. Build a career as an EV system designer, battery specialist, or sustainable energy consultant."
+    }
+  },
+  {
+    "id": "5g-technology",
+    "title": "Introduction to IoT & Sensors",
+    "description": "The Internet of Things (IoT) is at the core of the fourth industrial revolution, transforming the way devices communicate and enabling smarter, data-driven systems. By connecting devices and integrating sensor-based solutions, IoT is revolutionizing industries such as manufacturing, healthcare, and urban development. At TNFTH’s IoT & Sensors Lab, participants gain hands-on experience in designing, building, and implementing IoT networks and sensor-driven applications to address real-world challenges.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to IoT and Sensors Training",
+      "description": "Our IoT & Sensors Lab offers an unmatched environment for learning and innovation, providing:",
+      "data": [
+        {
+          "title": "State-of-the-Art Facilities",
+          "description": "Access to advanced IoT platforms and smart devices for hands-on experimentation."
+        },
+        {
+          "title": "Expert Mentorship",
+          "description": "Learn from experienced IoT specialists with practical insights into industry applications."
+        },
+        {
+          "title": "Prototyping Opportunities",
+          "description": "Work on innovative projects addressing real-world problems and industry-specific challenges."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants in our program will gain the skills and knowledge to excel in the rapidly growing IoT field:",
+      "data": [
+        {
+          "title": "IoT System Development",
+          "description": "Learn to design and deploy IoT systems that communicate and operate seamlessly."
+        },
+        {
+          "title": "Sensor-Driven Insights",
+          "description": "Understand how sensors collect and analyze data to enable smarter decision-making."
+        },
+        {
+          "title": "Automation Through IoT",
+          "description": "Explore how IoT networks optimize industrial operations and drive automation."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities in IoT and Sensor Technology",
+      "description": "IoT and sensors are the backbone of innovation in industries such as smart cities, manufacturing, and healthcare. Graduates from TNFTH’s IoT & Sensors Lab will be well-prepared for roles such as:",
+      "data": [
+        {
+          "title": "IoT Developer",
+          "description": "Design and implement IoT solutions for diverse applications."
+        },
+        {
+          "title": "System Integrator",
+          "description": "Seamlessly connect IoT devices and systems to enhance functionality."
+        },
+        {
+          "title": "Automation Expert",
+          "description": "Lead advancements in industrial automation and smart technology integration."
+        }
+      ],
+      "info": "With TNFTH’s IoT & Sensors Lab, participants will gain the skills to become leaders in the fast-evolving IoT domain, ready to innovate in startups, multinational companies, or entrepreneurial ventures."
+    },
+    "meta": {
+      "title": "Master IoT and Sensor Technology: Build Smarter Systems with TNFTH",
+      "description": "Discover the potential of IoT and sensors at TNFTH’s IoT & Sensors Lab. Learn to design IoT systems, harness sensor data, and drive automation in industries like manufacturing, healthcare, and smart cities."
+    }
+  },
+  {
+    "id": "erp",
+    "title": "5G and ERP",
+    "description": "The convergence of 5G technology and Enterprise Resource Planning (ERP) systems is revolutionizing how businesses operate, delivering unmatched connectivity and efficiency. While 5G transforms communication with ultra-fast speeds and low latency, ERP systems streamline processes and enhance decision-making. At TNFTH’s 5G and ERP Lab, participants gain hands-on experience in combining these cutting-edge technologies to drive innovation and improve enterprise connectivity.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to 5G and ERP Training",
+      "description": "Our 5G and ERP Lab provides an unparalleled learning experience with the following key offerings:",
+      "data": [
+        {
+          "title": "Access to Advanced Infrastructure",
+          "description": "Experiment with cutting-edge 5G networks and ERP platforms."
+        },
+        {
+          "title": "Scalable Solution Design",
+          "description": "Learn to create enterprise solutions leveraging 5G capabilities for enhanced productivity."
+        },
+        {
+          "title": "Real-World Project Experience",
+          "description": "Work on projects that integrate 5G technology with ERP systems to solve business challenges."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants will master the integration of 5G and ERP, acquiring skills such as:",
+      "data": [
+        {
+          "title": "Enhanced ERP with 5G",
+          "description": "Understand how 5G networks empower ERP systems for real-time decision-making and efficiency."
+        },
+        {
+          "title": "Scalable Business Solutions",
+          "description": "Develop advanced solutions for enterprises by leveraging 5G-enabled systems."
+        },
+        {
+          "title": "Real-Time Data Optimization",
+          "description": "Explore how to optimize business processes using real-time data analytics."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities in 5G and ERP Integration",
+      "description": "Graduates from TNFTH’s 5G and ERP Lab will be equipped to take on leadership roles in industries undergoing digital transformation. Career paths include:",
+      "data": [
+        {
+          "title": "Telecommunications Innovator",
+          "description": "Develop and implement advanced connectivity solutions."
+        },
+        {
+          "title": "Enterprise Management Specialist",
+          "description": "Optimize ERP systems with cutting-edge technologies for streamlined operations."
+        },
+        {
+          "title": "Industrial Connectivity Expert",
+          "description": "Lead advancements in connected industries using 5G-powered solutions."
+        }
+      ],
+      "info": "With TNFTH’s 5G and ERP Lab, participants will gain the expertise to innovate in the fields of telecommunications, enterprise resource planning, and industrial connectivity, positioning themselves as leaders in a connected world."
+    },
+    "meta": {
+      "title": "Transform Connectivity with 5G and ERP: Learn at TNFTH",
+      "description": "Explore the future of connectivity and enterprise management at TNFTH’s 5G and ERP Lab. Gain expertise in integrating 5G and ERP systems for real-time data analytics and scalable business solutions. Prepare for a career in telecommunications or enterprise management."
+    }
+  },
+  {
+    "id": "corporate-gateway-lab",
+    "title": "Corporate Gateway Lab",
+    "description": "The Corporate Gateway Lab at TNFTH is a groundbreaking platform where academic knowledge converges with industry innovation. By replicating real-world corporate environments, this lab equips participants with the tools and insights needed to excel in professional settings. Participants gain firsthand experience with workflows and challenges encountered in dynamic industries, bridging the gap between theoretical learning and practical application.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to the Corporate Gateway Lab",
+      "description": "Our Corporate Gateway Lab is designed to prepare participants for real-world success with:",
+      "data": [
+        {
+          "title": "Corporate-Grade Systems and Workflows",
+          "description": "Hands-on experience with tools and processes used by leading organizations."
+        },
+        {
+          "title": "Interactive Sessions",
+          "description": "Engage with industry leaders and seasoned professionals who bring real-world insights to learning."
+        },
+        {
+          "title": "Live Project Simulations",
+          "description": "Tackle corporate scenarios through practical, project-based learning to develop industry-relevant skills."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants in the Corporate Gateway Lab will build a comprehensive skill set tailored to corporate excellence:",
+      "data": [
+        {
+          "title": "Problem-Solving and Critical Thinking",
+          "description": "Learn to address and overcome challenges in a corporate context."
+        },
+        {
+          "title": "Project Management and Team Collaboration",
+          "description": "Gain practical experience managing projects and working effectively in team environments."
+        },
+        {
+          "title": "Industry Tools and Practices",
+          "description": "Master the use of standard tools and workflows prevalent in corporate settings"
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities",
+      "description": "Graduates of the Corporate Gateway Lab will be well-prepared for impactful roles in:",
+      "data": [
+        {
+          "title": "Corporate Technology Implementation",
+          "description": "Drive the adoption of innovative technologies to streamline business operations."
+        },
+        {
+          "title": "Operational Strategy Development",
+          "description": "Create and implement strategies to enhance organizational efficiency."
+        },
+        {
+          "title": "Team Leadership",
+          "description": "Lead teams with a focus on innovation, collaboration, and achieving goals."
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "Bridge Academia and Industry at TNFTH’s Corporate Gateway Lab",
+      "description": "Transform learning into action at TNFTH’s Corporate Gateway Lab. Gain real-world experience with corporate systems, project management, and team collaboration. Prepare for leadership roles in technology, strategy, and innovation."
+    }
+  },
+  {
+    "id": "",
+    "title": "",
+    "description": "",
+    "contributions": {
+      "title": "",
+      "description": "",
+      "data": [
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "",
+      "data": [
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "",
+      "description": "",
+      "data": [
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "",
+      "description": ""
+    }
+  },
+  {
+    "id": "incubation-innovation-center",
+    "title": "Incubation & Innovation Center",
+    "description": "The Incubation & Innovation Center at TNFTH is a transformative platform designed to empower aspiring entrepreneurs, innovators, and researchers. By providing the necessary infrastructure, mentorship, and resources, the center bridges the gap between ideation and execution. It fosters a culture of collaboration and experimentation, enabling individuals and teams to address industry challenges and create impactful solutions. As a hub for innovation and growth in Tamil Nadu, the center is the ideal launchpad for groundbreaking ideas.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to the Incubation & Innovation Center",
+      "description": "The center offers an ecosystem that supports every stage of the innovation journey through:",
+      "data": [
+        {
+          "title": "State-of-the-Art Facilities",
+          "description": "Access modern tools, cutting-edge technologies, and advanced incubation spaces."
+        },
+        {
+          "title": "Structured Mentorship",
+          "description": "Learn from industry veterans and academic leaders who provide invaluable guidance."
+        },
+        {
+          "title": "Workshops and Seminars",
+          "description": "Participate in regular events designed to inspire innovation and entrepreneurial thinking."
+        },
+        {
+          "title": "IP Development and Commercialization Support",
+          "description": "Receive assistance in securing intellectual property and bringing your innovations to market."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants at the Incubation & Innovation Center will develop a broad range of skills to turn ideas into reality:",
+      "data": [
+        {
+          "title": "Product Ideation and Design Thinking",
+          "description": "Learn to conceptualize innovative products and solutions."
+        },
+        {
+          "title": "Prototype Development",
+          "description": "Gain hands-on experience in turning ideas into functional prototypes."
+        },
+        {
+          "title": "Business Planning and Market Analysis",
+          "description": "Understand how to build scalable business models and analyze market opportunities."
+        },
+        {
+          "title": "Pitching and Funding Strategies",
+          "description": "Master effective communication techniques to secure funding and attract stakeholders."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities",
+      "description": "The Incubation & Innovation Center equips participants with the tools and knowledge to succeed in various roles, including:",
+      "data": [
+        {
+          "title": "Startup Founders",
+          "description": "Transform innovative ideas into thriving businesses."
+        },
+        {
+          "title": "Industry Collaborators",
+          "description": "Forge partnerships with leading organizations and industry leaders."
+        },
+        {
+          "title": "Research and Development Innovators",
+          "description": "Contribute to cutting-edge advancements in technology and business."
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "Empower Innovation at TNFTH’s Incubation & Innovation Center",
+      "description": "Turn ideas into reality at TNFTH’s Incubation & Innovation Center. Gain mentorship, resources, and support for product ideation, prototype development, and securing funding. Build your startup or advance in research and innovation roles."
+    }
+  },
+  {
+    "id": "start-up-support-center",
+    "title": "Start-up Support Center",
+    "description": "The Start-up Support Center at TNFTH is a dynamic ecosystem created to help entrepreneurs launch, grow, and scale their businesses. Designed to address the unique challenges of early-stage startups, the center provides comprehensive guidance on business development, financial management, and market strategies. Whether you’re a first-time founder or an experienced innovator, the center equips you with the tools and knowledge needed to transform ideas into successful enterprises.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to the Start-up Support Center",
+      "description": "The Start-up Support Center provides an end-to-end support system for entrepreneurs through:",
+      "data": [
+        {
+          "title": "Startup Accelerators and Seed Funding",
+          "description": "Access accelerators, funding opportunities, and connections to investor networks."
+        },
+        {
+          "title": "Personalized Mentorship",
+          "description": "Receive one-on-one guidance from experienced industry experts and business strategists."
+        },
+        {
+          "title": "Networking Opportunities",
+          "description": "Build valuable relationships with peers, industry leaders, and potential collaborators."
+        },
+        {
+          "title": "Regulatory Assistance",
+          "description": "Navigate business registration and regulatory compliance with professional support."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants in the Start-up Support Center will gain essential skills and knowledge to drive their ventures forward:",
+      "data": [
+        {
+          "title": "Startup Management and Financial Planning",
+          "description": "Learn the foundations of managing a startup and creating sustainable financial models."
+        },
+        {
+          "title": "Customer Acquisition and Branding",
+          "description": "Master strategies to attract and retain customers while building a strong brand identity."
+        },
+        {
+          "title": "Legal and Regulatory Expertise",
+          "description": "Gain confidence in handling the legal and regulatory aspects of running a business."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities",
+      "description": "Graduates of the Start-up Support Center will be well-equipped to pursue impactful opportunities, including:",
+      "data": [
+        {
+          "title": "Scaling Startups",
+          "description": "Grow your business with a clear roadmap and strategic support."
+        },
+        {
+          "title": "Securing Venture Capital",
+          "description": "Attract investors and secure funding to take your venture to the next level."
+        },
+        {
+          "title": "Global Collaborations",
+          "description": "Partner with international enterprises and expand your reach in the global market."
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "Empower Your Venture at TNFTH’s Start-up Support Center",
+      "description": "Launch and scale your startup with TNFTH’s Start-up Support Center. Access mentorship, funding opportunities, and regulatory assistance. Master branding, financial planning, and customer acquisition for success."
+    }
+  },
+  {
+    "id": "overseas-university-connecting-center",
+    "title": "Overseas University Connecting Center",
+    "description": "The Overseas University Connecting Center at TNFTH is a strategic hub for global collaboration, bridging participants with prestigious universities worldwide. This center opens pathways to international education, research, and professional opportunities, enabling participants to stay ahead in today’s competitive, interconnected world. By facilitating partnerships with world-class institutions, the center drives cross-border innovation, academic growth, and cultural exchange.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to the Overseas University Connecting Center",
+      "description": "The center provides unparalleled access to global educational and professional opportunities through:",
+      "data": [
+        {
+          "title": "Exchange Programs and Dual-Degree Opportunities",
+          "description": "Participate in programs that allow seamless academic experiences across borders."
+        },
+        {
+          "title": "Global Internships and Research Collaborations",
+          "description": "Work with international faculty and researchers on groundbreaking projects."
+        },
+        {
+          "title": "Insights into Global Trends and Practices",
+          "description": "Stay informed about industry standards and practices worldwide, gaining a competitive edge."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "Participants at the Overseas University Connecting Center will develop critical skills and knowledge to thrive in a globalized environment:",
+      "data": [
+        {
+          "title": "Global Perspective on Emerging Technologies",
+          "description": "Understand global innovation trends and their impact across industries."
+        },
+        {
+          "title": "Advanced Research and Academic Frameworks",
+          "description": "Gain exposure to methodologies and frameworks used by international institutions."
+        },
+        {
+          "title": "Cultural Competence and Networking",
+          "description": "Build professional networks and enhance cultural awareness for international success."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities",
+      "description": "Graduates of the Overseas University Connecting Center will be prepared for diverse global opportunities, including:",
+      "data": [
+        {
+          "title": "Pursuing Advanced Degrees Abroad",
+          "description": "Enroll in world-renowned universities for further academic excellence."
+        },
+        {
+          "title": "Global Research Initiatives",
+          "description": "Collaborate on impactful projects with international teams and organizations."
+        },
+        {
+          "title": "Entering International Job Markets",
+          "description": "Gain a competitive edge for securing roles in multinational corporations and global enterprises."
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "Connect with World-Class Universities at TNFTH’s Overseas University Connecting Center",
+      "description": "Explore global opportunities with TNFTH’s Overseas University Connecting Center. Access exchange programs, dual-degree options, and international internships. Build a global perspective, advance your career, and connect with prestigious universities worldwide."
+    }
+  }
+]

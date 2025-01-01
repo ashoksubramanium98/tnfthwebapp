@@ -1,4 +1,4 @@
-.about-why {
+.internship-home {
   padding: 75px 0;
   &__container {
     display: grid;
@@ -11,10 +11,12 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-    &__title::before {
+    &__sub-title {
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    &__sub-title::before {
       content: '';
       display: block;
       width: 72px;
@@ -27,35 +29,18 @@
     &__title {
       font-size: 48px;
       line-height: 57px;
-    }
-  }
-  &__card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  &__card {
-    &__title {
-      font-weight: 600;
+      font-weight: 700;
     }
     &__description {
-      margin-top: 6px;
-      color: #333;
+      color: rgba(82, 85, 96, 1);
     }
   }
-  &__video {
-    background: url('/assets/images/home-about.jpeg');
+  &__video-container {
+    background: url('/assets/images/initiatives-home.jpeg');
     background-size: cover;
     background-position: center;
-    height: 578px;
-    width: 480px;
+    height: 384px;
+    width: 476px;
     border-radius: 20px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1.6s ease, transform 1.6s ease;
-  }
-  &__visible {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

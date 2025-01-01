@@ -15,21 +15,39 @@ export class HeaderComponent {
   activeSubMenuDropdown:string | null = 'emergingTech';
   menuOptions = [
     { id: 'home', name: 'Home', subMenu: false, url: '' }, { id: 'about', name: 'About', subMenu: false, url: 'about' },
-    { id: 'services', name: 'Services', subMenu: true, url: 'services' }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
+    { id: 'services', name: 'Services', subMenu: true, url: null }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
     { id: 'contact', name: 'Reach Us', subMenu: false, url: 'contact' }, { id: 'internship', name: 'Internship', subMenu: false, url: 'internship' }
   ]
 
   servicesMenuOptions = [
-    { id: 'emergingTech', name: 'Emerging Technology Labs' }, { id: 'corporate', name: 'Corporate Experience & Collaborations' },
-    { id: 'support', name: 'Start-up Support Center' }, { id: 'connect', name: 'Overseas University Connecting Center' },
-    { id: 'incubation', name: 'Incubation & Innovation Center' }
+    { id: 'emergingTech', name: 'Emerging Technology Labs', url: null }, { id: 'corporate', name: 'Corporate Experience & Collaborations', url: null },
+    { id: 'support', name: 'Start-up Support Center', url: 'services/start-up-support-center' },
+    { id: 'connect', name: 'Overseas University Connecting Center', url: 'services/overseas-university-connecting-center' },
+    { id: 'incubation', name: 'Incubation & Innovation Center', url: 'services/incubation-innovation-center' }
   ]
 
-  handleRedirectMenu(name: string) {
-    this.router.navigate([name])
+  emergingTechMenuOptions = [
+    { name: 'Artificial Intelligence', icon: '/assets/icons/ai.png', url: 'services/artificial-intelligence' },
+    { name: 'Cyber Security', icon: '/assets/icons/security.png', url: 'services/cyber-security' },
+    { name: 'Drone Technology', icon: '/assets/icons/drone.png', url: 'services/drone-technology' },
+    { name: 'Electric Vehicle Ecosystem', icon: '/assets/icons/electric.png', url: 'services/electric-vehicle-ecosystem' },
+    { name: '5G Technology', icon: '/assets/icons/5g.png', url: 'services/5g-technology' },
+    { name: 'ERP', icon: '/assets/icons/erp.png', url: 'services/erp' }
+  ]
+
+  corporateMenuOptions = [
+    { name: 'Corporate Gateway Lab', icon: '/assets/icons/ai.png', url: 'services/corporate-gateway-lab' },
+    { name: 'Corporate Experience Center', icon: '/assets/icons/security.png', url: 'services/corporate-experience-center' }
+  ]
+
+  handleRedirectMenu(name: string | null) {
+    if (name !== null) {
+      this.router.navigate([name])
+      this.closeDropdownModal()
+    }
   }
 
-  isActiveMenu(route: string):boolean {
+  isActiveMenu(route: string | null):boolean {
     return this.router.url === `/${route}`;
   }
 
