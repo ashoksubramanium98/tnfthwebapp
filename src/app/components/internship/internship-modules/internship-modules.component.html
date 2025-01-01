@@ -1,1 +1,41 @@
-<p>internship-modules works!</p>
+<div>
+  <div class="internship-modules internship-modules__outer1">
+    <div class="container">
+      <div class="internship-modules__container2">
+        <div class="internship-modules__img-container">
+          <img src="/assets/images/home-about.jpeg" alt="home about" />
+        </div>
+        <div>
+          <div class="internship-modules__title text-white"> Why Join TNFTH’s Internship Program? </div>
+          <ul class="internship-modules__data">
+            @for (content of data; track content.title) {
+              <div class="internship-modules__content">
+                <li class="internship-modules__content__title text-white"> {{ content.title }} </li>
+                <div class="internship-modules__content__info text-grey"> {{ content.description }} </div>
+              </div>
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="internship-modules internship-modules__outer2">
+    <div class="container">
+      <div class="internship-modules__container1">
+        <div>
+          <div class="internship-modules__title"> Who Can Apply? </div>
+          <div class="internship-modules__description"> Our internship program is open to: </div>
+          <ul class="internship-modules__data">
+            <li class="internship-modules__content__title"> Students pursuing undergraduate or postgraduate degrees. </li>
+            <li class="internship-modules__content__title"> Recent graduates looking to enhance their skills. </li>
+            <li class="internship-modules__content__title"> Professionals seeking industry exposure in emerging technologies. </li>
+          </ul>  
+        </div>
+        <div class="internship-modules__img-container">
+          <img src="/assets/images/home-about.jpeg" alt="home about" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

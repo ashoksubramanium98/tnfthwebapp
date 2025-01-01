@@ -1,0 +1,46 @@
+.internship-home {
+  padding: 75px 0;
+  &__container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    &__sub-title {
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    &__sub-title::before {
+      content: '';
+      display: block;
+      width: 72px;
+      height: 2px;
+      background: #1D2130;
+      position: relative;
+      left: -20%;
+      top: 14px;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 57px;
+      font-weight: 700;
+    }
+    &__description {
+      color: rgba(82, 85, 96, 1);
+    }
+  }
+  &__video-container {
+    background: url('/assets/images/initiatives-home.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 384px;
+    width: 476px;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,59 @@
+
+.internship-modules {
+  &__outer1 {
+    padding: 50px 0;
+    background: #0D4B7A;
+  }
+  &__outer2 {
+    margin: 175px 0;
+  }
+  &__container1 {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    align-items: center;
+    gap: 5%;
+  }
+  &__container2 {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    align-items: center;
+    gap: 5%;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+  }
+  &__description {
+    color: rgba(82, 85, 96, 1);
+  }
+  &__data {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  &__content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    &__title {
+      font-weight: 600;
+    }
+    &__info {
+      color: rgba(82, 85, 96, 1);
+    }
+  }
+  &__info {
+    columns: #000;
+    margin-top: 20px;
+  }
+  &__img-container {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  }
+}
