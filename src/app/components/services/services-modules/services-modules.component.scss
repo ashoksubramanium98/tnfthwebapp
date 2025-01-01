@@ -1,14 +1,22 @@
 
 .services-modules {
   padding: 50px 0;
-  &__container {
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  &__container1 {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    align-items: center;
+    gap: 5%;
+  }
+  &__container2 {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    align-items: center;
+    gap: 5%;
   }
   &__title {
     font-size: 24px;
     font-weight: 500;
-    margin: 30px 0;
+    margin: 15px 0;
   }
   &__description {
     color: rgba(82, 85, 96, 1);
@@ -29,6 +37,17 @@
     }
     &__info {
       color: rgba(82, 85, 96, 1);
+    }
+  }
+  &__info {
+    columns: #000;
+    margin-top: 20px;
+  }
+  &__img-container {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
     }
   }
 }
