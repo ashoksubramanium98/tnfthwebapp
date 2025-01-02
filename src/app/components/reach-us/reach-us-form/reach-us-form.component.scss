@@ -70,9 +70,9 @@
     height: 51px;
     font-size: 16px;
     cursor: pointer;
-    &__disabled {
-      cursor: not-allowed;
-      opacity: 0.8;
-    }
+  }
+  &__action:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
   }
 }

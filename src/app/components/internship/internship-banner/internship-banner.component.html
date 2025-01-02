@@ -6,9 +6,15 @@
         Take the first step toward an exciting and impactful internship experience. Fill out the form below, and our team will review your application promptly.
       </div>
       <div class="internship-banner__action-container">
-        <button class="internship-banner__action"> For Institutions </button>
-        <button class="internship-banner__action"> For Students </button>
+        <button class="internship-banner__action" (click)="openModal('INSTITUTIONS')"> For Institutions </button>
+        <button class="internship-banner__action" (click)="openModal('STUDENTS')"> For Students </button>
       </div>
     </div>
   </div>
+  <app-internship-form-modal
+    [isVisible]="isModalVisible"
+    [modalType]="formType"
+    (confirm)="handleConfirm()"
+    (close)="handleClose()"
+  />
 </div>
