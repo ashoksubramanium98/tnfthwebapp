@@ -268,7 +268,7 @@
     }
   },
   {
-    "id": "5g-technology",
+    "id": "iot-sensors",
     "title": "Introduction to IoT & Sensors",
     "description": "The Internet of Things (IoT) is at the core of the fourth industrial revolution, transforming the way devices communicate and enabling smarter, data-driven systems. By connecting devices and integrating sensor-based solutions, IoT is revolutionizing industries such as manufacturing, healthcare, and urban development. At TNFTH’s IoT & Sensors Lab, participants gain hands-on experience in designing, building, and implementing IoT networks and sensor-driven applications to address real-world challenges.",
     "contributions": {
@@ -332,67 +332,131 @@
     }
   },
   {
-    "id": "erp",
-    "title": "5G and ERP",
-    "description": "The convergence of 5G technology and Enterprise Resource Planning (ERP) systems is revolutionizing how businesses operate, delivering unmatched connectivity and efficiency. While 5G transforms communication with ultra-fast speeds and low latency, ERP systems streamline processes and enhance decision-making. At TNFTH’s 5G and ERP Lab, participants gain hands-on experience in combining these cutting-edge technologies to drive innovation and improve enterprise connectivity.",
+    "id": "5g-technology",
+    "title": "5G Technology",
+    "description": "5G technology is revolutionizing connectivity with ultra-fast speeds, low latency, and high reliability. It empowers industries to innovate and operate more efficiently in areas like telecommunications, healthcare, and smart cities. At TNFTH’s 5G Lab, participants gain hands-on experience with the latest 5G advancements, unlocking opportunities for scalable solutions and enhanced communication.",
     "contributions": {
-      "title": "TNFTH’s Contributions to 5G and ERP Training",
-      "description": "Our 5G and ERP Lab provides an unparalleled learning experience with the following key offerings:",
+      "title": "TNFTH’s Contributions to 5G Training",
+      "description": "",
       "data": [
         {
-          "title": "Access to Advanced Infrastructure",
-          "description": "Experiment with cutting-edge 5G networks and ERP platforms."
+          "title": "Cutting-Edge Infrastructure",
+          "description": "Access to 5G-enabled systems and tools for real-world learning."
         },
         {
-          "title": "Scalable Solution Design",
-          "description": "Learn to create enterprise solutions leveraging 5G capabilities for enhanced productivity."
+          "title": "Industry Collaboration",
+          "description": "Insights from experts to explore the potential of 5G across industries."
         },
         {
-          "title": "Real-World Project Experience",
-          "description": "Work on projects that integrate 5G technology with ERP systems to solve business challenges."
+          "title": "Practical Projects",
+          "description": "Work on applications of 5G in emerging technologies like IoT and AI."
         }
       ]
     },
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
-      "description": "Participants will master the integration of 5G and ERP, acquiring skills such as:",
+      "description": "",
       "data": [
         {
-          "title": "Enhanced ERP with 5G",
-          "description": "Understand how 5G networks empower ERP systems for real-time decision-making and efficiency."
+          "title": "Core 5G Concepts",
+          "description": "Understand the foundations of 5G networks and their transformative capabilities."
         },
         {
-          "title": "Scalable Business Solutions",
-          "description": "Develop advanced solutions for enterprises by leveraging 5G-enabled systems."
+          "title": "Innovative Applications",
+          "description": "Explore how 5G accelerates advancements in smart cities, autonomous vehicles, and industrial IoT."
         },
         {
-          "title": "Real-Time Data Optimization",
-          "description": "Explore how to optimize business processes using real-time data analytics."
+          "title": "Integration and Optimization",
+          "description": "Learn to design and optimize systems powered by 5G connectivity."
         }
       ]
     },
     "futureOpportunities": {
-      "title": "Future Opportunities in 5G and ERP Integration",
-      "description": "Graduates from TNFTH’s 5G and ERP Lab will be equipped to take on leadership roles in industries undergoing digital transformation. Career paths include:",
+      "title": "Future Opportunities",
+      "description": "Graduates of the 5G Lab will be prepared for roles such as:",
       "data": [
         {
-          "title": "Telecommunications Innovator",
-          "description": "Develop and implement advanced connectivity solutions."
+          "title": "Telecommunications Specialist",
+          "description": "Build and maintain advanced 5G networks."
         },
         {
-          "title": "Enterprise Management Specialist",
-          "description": "Optimize ERP systems with cutting-edge technologies for streamlined operations."
+          "title": "IoT Architect",
+          "description": "Design smart systems utilizing 5G for seamless connectivity."
         },
         {
-          "title": "Industrial Connectivity Expert",
-          "description": "Lead advancements in connected industries using 5G-powered solutions."
+          "title": "Technology Consultant",
+          "description": "Help businesses leverage 5G to drive innovation."
         }
       ],
-      "info": "With TNFTH’s 5G and ERP Lab, participants will gain the expertise to innovate in the fields of telecommunications, enterprise resource planning, and industrial connectivity, positioning themselves as leaders in a connected world."
+      "info": ""
     },
     "meta": {
-      "title": "Transform Connectivity with 5G and ERP: Learn at TNFTH",
-      "description": "Explore the future of connectivity and enterprise management at TNFTH’s 5G and ERP Lab. Gain expertise in integrating 5G and ERP systems for real-time data analytics and scalable business solutions. Prepare for a career in telecommunications or enterprise management."
+      "title": "Master 5G Connectivity: Unlock the Future at TNFTH’s 5G Lab",
+      "description": "Explore the limitless potential of 5G technology at TNFTH’s 5G Lab. Gain hands-on experience and prepare for a career in telecommunications, IoT, and smart systems."
+    }
+  },
+  {
+    "id": "erp",
+    "title": "Enterprise Resource Planning (ERP)",
+    "description": "Enterprise Resource Planning (ERP) systems streamline business operations, integrating processes like finance, supply chain, and customer management into a unified platform. At TNFTH’s ERP Lab, participants learn to leverage ERP technologies for improved decision-making, scalability, and operational efficiency.",
+    "contributions": {
+      "title": "TNFTH’s Contributions to ERP Training",
+      "description": "",
+      "data": [
+        {
+          "title": "State-of-the-Art ERP Platforms",
+          "description": "Hands-on access to advanced ERP tools used in global enterprises."
+        },
+        {
+          "title": "Guidance from Experts",
+          "description": "Mentorship from seasoned professionals in enterprise management."
+        },
+        {
+          "title": "Project-Based Learning",
+          "description": "Apply ERP solutions to real-world scenarios and industry challenges."
+        }
+      ]
+    },
+    "whatYouWillLearn": {
+      "title": "What You’ll Learn",
+      "description": "",
+      "data": [
+        {
+          "title": "ERP Fundamentals",
+          "description": "Master the basics of ERP systems and their role in business integration."
+        },
+        {
+          "title": "Customization and Implementation",
+          "description": "Learn how to tailor ERP systems to meet organizational needs."
+        },
+        {
+          "title": "Data-Driven Decision Making",
+          "description": "Explore analytics and reporting features to drive business growth."
+        }
+      ]
+    },
+    "futureOpportunities": {
+      "title": "Future Opportunities",
+      "description": "Participants will be equipped to pursue careers in:",
+      "data": [
+        {
+          "title": "ERP Consultant",
+          "description": "Implement and optimize ERP solutions for businesses."
+        },
+        {
+          "title": "Business Analyst:",
+          "description": "Use ERP insights to streamline operations and improve productivity."
+        },
+        {
+          "title": "IT Project Manager",
+          "description": "Lead ERP deployment projects for organizations of all sizes."
+        }
+      ],
+      "info": ""
+    },
+    "meta": {
+      "title": "Streamline Business Operations with ERP Training at TNFTH",
+      "description": "Learn to optimize business processes with ERP systems at TNFTH’s ERP Lab. Develop skills in customization, analytics, and enterprise management for global opportunities."
     }
   },
   {
@@ -460,67 +524,67 @@
     }
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
+    "id": "corporate-experience-center",
+    "title": "Corporate Experience Center",
+    "description": "The Corporate Experience Center is a collaborative hub designed to connect academia and industry. Here, participants engage with real-world projects, collaborate with industry leaders, and network with professionals, fostering a culture of innovation and continuous learning.",
     "contributions": {
-      "title": "",
-      "description": "",
+      "title": "TNFTH’s Contributions to the Corporate Experience Center",
+      "description": "The Corporate Experience Center empowers participants with opportunities to bridge the gap between theoretical knowledge and practical application through:",
       "data": [
         {
-          "title": "",
-          "description": ""
+          "title": "Industry-Driven Projects",
+          "description": "Work on challenges faced by corporations, gaining valuable hands-on experience."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Professional Networking",
+          "description": "Build connections with corporate leaders and industry experts."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Collaborative Learning",
+          "description": "Engage in cross-functional projects that encourage teamwork and innovation."
         }
       ]
     },
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
-      "description": "",
+      "description": "Participants gain comprehensive insights into corporate operations, including:",
       "data": [
         {
-          "title": "",
-          "description": ""
+          "title": "Real-World Problem Solving",
+          "description": "Tackle challenges faced by organizations across various sectors."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Communication and Networking Skills",
+          "description": "Develop the ability to communicate effectively and build professional relationships."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Cross-Functional Project Expertise",
+          "description": "Manage projects that require collaboration across diverse teams and functions."
         }
       ]
     },
     "futureOpportunities": {
-      "title": "",
-      "description": "",
+      "title": "Future Opportunities",
+      "description": "The Corporate Experience Center prepares participants for dynamic roles in:",
       "data": [
         {
-          "title": "",
-          "description": ""
+          "title": "Corporate Strategy",
+          "description": "Lead initiatives to drive organizational growth and innovation."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Innovation Management",
+          "description": "Develop and implement creative solutions to industry challenges."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Business Development",
+          "description": "Expand market opportunities through strategic partnerships and innovation."
         }
       ],
       "info": ""
     },
     "meta": {
-      "title": "",
-      "description": ""
+      "title": "Bridge Academia and Industry at TNFTH’s Corporate Experience Center",
+      "description": "Connect with industry leaders and work on real-world projects at TNFTH’s Corporate Experience Center. Build expertise in strategy, innovation management, and business development."
     }
   },
   {

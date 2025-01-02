@@ -1,1 +1,50 @@
-<p>internship-form-modal works!</p>
+@if (isVisible) {
+  <div class="internship-form-modal__overlay"></div>
+}
+
+@if (isVisible) {
+  <div class="internship-form-modal__container">
+    <div class="internship-form-modal__header">
+      <div class="internship-form-modal__header__title"> Join Us Today! </div>
+      <button class="internship-form-modal__header__close-button" (click)="closeModal()">×</button>
+    </div>
+    <div class="internship-form-modal__body">
+      <div> Your journey toward an exciting career in technology starts here. Be part of TNFTH’s internship program and transform your learning into action. Apply now! </div>
+      <!-- Students form start -->
+      <div class="contact-form__fields-container">
+        <div class="contact-form__form-field">
+          <label for="firstName"> Name </label>
+          <input class="contact-form__input" id="firstName" formControlName="name" type="text" placeholder="Name" />
+        </div>
+        <div class="contact-form__form-field">
+          <label for="email">Email Id</label>
+          <input class="contact-form__input" id="email" formControlName="email" type="email" placeholder="johndoe@gmail.com" />
+        </div>
+        <div class="contact-form__form-field">
+          <label for="mobileNumber"> Mobile number </label>
+          <input class="contact-form__input" id="mobileNumber" formControlName="name" type="number" placeholder="91xxxxxxxx" />
+        </div>
+        <div class="contact-form__form-field">
+          <label for="collegeName"> College Name </label>
+          <input class="contact-form__input" id="collegeName" formControlName="collegeName" type="collegeName" placeholder="johndoe@gmail.com" />
+        </div>
+        <div class="contact-form__form-field">
+          <label for="departments"> Departments Available in College </label>
+          <input class="contact-form__input" id="departments" formControlName="name" type="text" placeholder="Name" />
+        </div>
+        <div class="contact-form__form-field">
+          <label for="noOfStudents"> Total No of Final year students </label>
+          <input class="contact-form__input" id="noOfStudents" formControlName="noOfStudents" type="number" placeholder="johndoe@gmail.com" />
+        </div>
+      </div>
+      <!-- Students form end -->
+      
+    </div>
+    <div class="internship-form-modal__footer">
+      <div class="internship-form-modal__actions">
+        <button class="internship-form-modal__action-secondary" (click)="closeModal()"> Cancel </button>
+        <button class="internship-form-modal__action-primary" (click)="onConfirm()"> Submit </button>
+      </div>
+    </div>
+  </div>
+}

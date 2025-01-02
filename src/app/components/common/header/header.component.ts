@@ -31,13 +31,14 @@ export class HeaderComponent {
     { name: 'Cyber Security', icon: '/assets/icons/security.png', url: 'services/cyber-security' },
     { name: 'Drone Technology', icon: '/assets/icons/drone.png', url: 'services/drone-technology' },
     { name: 'Electric Vehicle Ecosystem', icon: '/assets/icons/electric.png', url: 'services/electric-vehicle-ecosystem' },
-    { name: '5G Technology', icon: '/assets/icons/5g.png', url: 'services/5g-technology' },
+    { name: 'IoT & Sensors', icon: '/assets/icons/5g.png', url: 'services/iot-sensors' },
+    { name: '5G', icon: '/assets/icons/5g.png', url: 'services/5g-technology' },
     { name: 'ERP', icon: '/assets/icons/erp.png', url: 'services/erp' }
   ]
 
   corporateMenuOptions = [
-    { name: 'Corporate Gateway Lab', icon: '/assets/icons/ai.png', url: 'services/corporate-gateway-lab' },
-    { name: 'Corporate Experience Center', icon: '/assets/icons/security.png', url: 'services/corporate-experience-center' }
+    { name: 'Corporate Gateway Lab', icon: '/assets/icons/corporation.png', url: 'services/corporate-gateway-lab' },
+    { name: 'Corporate Experience Center', icon: '/assets/icons/team.png', url: 'services/corporate-experience-center' }
   ]
 
   handleRedirectMenu(name: string | null) {
@@ -53,6 +54,9 @@ export class HeaderComponent {
 
   handleShowMenuModal(menu: string): void {
     this.activeMenuDropdown = menu;
+    if (menu === this.menuOptions[2].id) {
+      this.activeSubMenuDropdown = 'emergingTech'
+    }
   }
   closeDropdownModal(): void {
     this.activeMenuDropdown = null;
