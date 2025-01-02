@@ -31,6 +31,13 @@
       font-weight: 500;
     }
   }
+  &__img-container {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  }
 }
 
 .about-vision-mission {

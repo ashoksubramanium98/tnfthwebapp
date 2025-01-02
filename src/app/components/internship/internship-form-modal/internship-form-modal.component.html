@@ -1,49 +1,81 @@
 @if (isVisible) {
-  <div class="internship-form-modal__overlay"></div>
+  <div class="internship-form-modal__overlay" [class.internship-form-modal__overlay__show]="isVisible"></div>
 }
 
 @if (isVisible) {
-  <div class="internship-form-modal__container">
+  <div class="internship-form-modal__container" [class.internship-form-modal__container__show]="isVisible">
     <div class="internship-form-modal__header">
       <div class="internship-form-modal__header__title"> Join Us Today! </div>
       <button class="internship-form-modal__header__close-button" (click)="closeModal()">×</button>
     </div>
     <div class="internship-form-modal__body">
       <div> Your journey toward an exciting career in technology starts here. Be part of TNFTH’s internship program and transform your learning into action. Apply now! </div>
-      <!-- Students form start -->
-      <div class="contact-form__fields-container">
-        <div class="contact-form__form-field">
-          <label for="firstName"> Name </label>
-          <input class="contact-form__input" id="firstName" formControlName="name" type="text" placeholder="Name" />
+      <!-- Institutions form start -->
+      @if (modalType === 'INSTITUTIONS') {
+        <div class="internship-form-modal__fields-container">
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="name"> Name </label>
+            <input class="internship-form-modal__input" id="name" formControlName="name" type="text" placeholder="Name" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="email">Email Id</label>
+            <input class="internship-form-modal__input" id="email" formControlName="email" type="email" placeholder="Ex: johndoe@gmail.com" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="mobileNumber"> Mobile number </label>
+            <input class="internship-form-modal__input" id="mobileNumber" formControlName="mobileNumber" type="number" placeholder="Ex: 91xxxxxxxx" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="collegeName"> College Name </label>
+            <input class="internship-form-modal__input" id="collegeName" formControlName="collegeName" type="collegeName" placeholder="Type the college name" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="departments"> Departments Available in College </label>
+            <input class="internship-form-modal__input" id="departments" formControlName="departments" type="text" placeholder="Ex: CSE, ME, MCT" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="noOfStudents"> Total No of Final year students </label>
+            <input class="internship-form-modal__input" id="noOfStudents" formControlName="noOfStudents" type="number" placeholder="Ex: 1,200" />
+          </div>
         </div>
-        <div class="contact-form__form-field">
-          <label for="email">Email Id</label>
-          <input class="contact-form__input" id="email" formControlName="email" type="email" placeholder="johndoe@gmail.com" />
-        </div>
-        <div class="contact-form__form-field">
-          <label for="mobileNumber"> Mobile number </label>
-          <input class="contact-form__input" id="mobileNumber" formControlName="name" type="number" placeholder="91xxxxxxxx" />
-        </div>
-        <div class="contact-form__form-field">
-          <label for="collegeName"> College Name </label>
-          <input class="contact-form__input" id="collegeName" formControlName="collegeName" type="collegeName" placeholder="johndoe@gmail.com" />
-        </div>
-        <div class="contact-form__form-field">
-          <label for="departments"> Departments Available in College </label>
-          <input class="contact-form__input" id="departments" formControlName="name" type="text" placeholder="Name" />
-        </div>
-        <div class="contact-form__form-field">
-          <label for="noOfStudents"> Total No of Final year students </label>
-          <input class="contact-form__input" id="noOfStudents" formControlName="noOfStudents" type="number" placeholder="johndoe@gmail.com" />
-        </div>
-      </div>
-      <!-- Students form end -->
+      }
+      <!-- Institutions form end -->
       
+      <!-- Students form start -->
+      @if (modalType === 'STUDENTS') {
+        <div class="internship-form-modal__fields-container">
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="name"> Name </label>
+            <input class="internship-form-modal__input" id="name" formControlName="name" type="text" placeholder="Name" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="email">Email Id</label>
+            <input class="internship-form-modal__input" id="email" formControlName="email" type="email" placeholder="Ex: johndoe@gmail.com" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="mobileNumber"> Mobile number </label>
+            <input class="internship-form-modal__input" id="mobileNumber" formControlName="mobileNumber" type="number" placeholder="Ex: 91xxxxxxxx" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="collegeName"> College Name </label>
+            <input class="internship-form-modal__input" id="collegeName" formControlName="collegeName" type="collegeName" placeholder="Type the college name" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="departments"> Department </label>
+            <input class="internship-form-modal__input" id="department" formControlName="department" type="text" placeholder="Ex: CSE" />
+          </div>
+          <div class="internship-form-modal__form-field">
+            <label class="internship-form-modal__form-field__label" for="interestedTopic"> Topic interested </label>
+            <input class="internship-form-modal__input" id="interestedTopic" formControlName="interestedTopic" type="tex" placeholder="Ex: 1,200" />
+          </div>
+        </div>
+      }
+      <!-- Students form end -->
     </div>
     <div class="internship-form-modal__footer">
       <div class="internship-form-modal__actions">
         <button class="internship-form-modal__action-secondary" (click)="closeModal()"> Cancel </button>
-        <button class="internship-form-modal__action-primary" (click)="onConfirm()"> Submit </button>
+        <button class="internship-form-modal__action-primary" (click)="onConfirm()"> Apply </button>
       </div>
     </div>
   </div>
