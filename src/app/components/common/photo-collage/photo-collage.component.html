@@ -1,0 +1,13 @@
+<div class="photo-collage">
+  @for (photo of photos; track photo) {
+    <div
+      class="photo-collage__item"
+      [class.photo-collage__enlarge]="hoveredPhoto === photo"
+      [style.backgroundImage]="'url(' + photo + ')'"
+      [style]="hoveredPhoto === photo ? hoverStyle : {}"
+      (mouseenter)="hoverImage(photo, $event)"
+      (mouseleave)="leaveImage()"
+    >
+    </div>
+  }
+</div>

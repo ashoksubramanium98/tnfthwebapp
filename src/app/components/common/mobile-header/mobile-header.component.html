@@ -1,0 +1,39 @@
+<div class="hamburger-menu">
+  <div class="hamburger-menu__container">
+    <img ngSrc="/assets/images/logo.svg" alt="Logo" class="hamburger-menu__logo" priority width="60" height="60" />
+    <div class="hamburger-menu__hamburger-icon" (click)="toggleMenu()">
+      @for (bar of [1, 2, 3]; track bar) {
+        <div class="hamburger-menu__hamburger-icon__bar"></div>
+      }
+    </div>  
+  </div>
+
+  <div class="hamburger-menu__overlay" [class.hamburger-menu__overlay__open]="isMenuOpen" (click)="toggleMenu()"></div>
+  <nav class="hamburger-menu__side-menu" [class.hamburger-menu__side-menu__open]="isMenuOpen">
+    @for (menu of menuOptions; track menu.id) {
+      <div class="hamburger-menu__side-menu__option" (click)="handleRedirectMenu(menu.url, menu.subMenu)"> {{ menu.name }} </div>
+      <div>
+        @if (activeMenuDropdown === menu.id) {
+          <div class="hamburger-menu__dropdown-modal" (mouseleave)="closeDropdownModal()">
+            <div class="hamburger-menu__dropdown-modal__content">
+              @for (menu of servicesMenuOptions; track menu.id; let i = $index) {
+                <div class="hamburger-menu__dropdown-modal__title" (mouseover)="handleShowSubMenuOptions(menu.id)" (click)="handleRedirectMenu(menu.url)">
+                  <span> {{ i + 1 }} </span> {{ menu.name }}
+                </div>
+                <div>
+                  @if (menu.options?.length) {
+                    @for (menu of menu.options; track menu.url) {
+                      <div class="hamburger-menu__dropdown-modal__data" (click)="handleRedirectMenu(menu.url)">
+                        <img [src]="menu.icon" class="hamburger-menu__dropdown-modal__icon" /> {{ menu.name }}
+                      </div>
+                    }
+                  }
+                </div>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    }
+  </nav>
+</div>

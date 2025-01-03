@@ -31,7 +31,7 @@ export class HeaderComponent {
     { name: 'Cyber Security', icon: '/assets/icons/security.png', url: 'services/cyber-security' },
     { name: 'Drone Technology', icon: '/assets/icons/drone.png', url: 'services/drone-technology' },
     { name: 'Electric Vehicle Ecosystem', icon: '/assets/icons/electric.png', url: 'services/electric-vehicle-ecosystem' },
-    { name: 'IoT & Sensors', icon: '/assets/icons/5g.png', url: 'services/iot-sensors' },
+    { name: 'IoT & Sensors', icon: '/assets/icons/sensor.png', url: 'services/iot-sensors' },
     { name: '5G', icon: '/assets/icons/5g.png', url: 'services/5g-technology' },
     { name: 'ERP', icon: '/assets/icons/erp.png', url: 'services/erp' }
   ]
@@ -44,12 +44,13 @@ export class HeaderComponent {
   handleRedirectMenu(name: string | null) {
     if (name !== null) {
       this.router.navigate([name])
+      window.scrollTo(0, 0)
       this.closeDropdownModal()
     }
   }
 
   isActiveMenu(route: string | null):boolean {
-    return this.router.url === `/${route}`;
+    return route === null ? this.router.url.includes('services') : this.router.url === `/${route}`;
   }
 
   handleShowMenuModal(menu: string): void {

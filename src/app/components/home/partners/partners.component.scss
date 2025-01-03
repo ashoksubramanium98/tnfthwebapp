@@ -1,5 +1,4 @@
 .partners {
-  background: #0D4B7A;
   padding: 80px 0;
   display: flex;
   flex-direction: column;
@@ -14,10 +13,9 @@
     &__title {
       font-size: 48px;
       line-height: 57px;
-      color: #fff;
     }
     &__description {
-      color: #ddd;
+      color: #666;
     }
   }
   &__logo {
