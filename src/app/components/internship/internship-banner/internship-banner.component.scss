@@ -12,7 +12,6 @@
     justify-content: space-between;
     background: #0D4B7A;
     border-radius: 20px;
-    gap: 5%;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -48,5 +47,14 @@
   }
   &__action:hover {
     opacity: 0.9;
+  }
+  @media screen and (max-width: 700px) {
+    margin: 25px auto;
+    &__action-container {
+      flex-direction: column;
+    }
+    &__action {
+      min-width: 250px;
+    }
   }
 }

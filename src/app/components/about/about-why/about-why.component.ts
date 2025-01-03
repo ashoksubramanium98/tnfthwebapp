@@ -40,7 +40,7 @@ export class AboutWhyComponent implements AfterViewInit {
       { threshold: 0.5 }
     );
 
-    const sections = document.querySelectorAll('.about-why__content, .about-why__video');
+    const sections = document.querySelectorAll('.about-why__content, .about-why__img-container');
     sections.forEach(section => observer.observe(section));
   }
 }

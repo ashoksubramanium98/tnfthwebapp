@@ -6,7 +6,7 @@
   </div>
   <div class="labs__card">
     <div class="labs__card__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
-      @for (lab of labs; track lab.title) {
+      @for (lab of labs; track lab.id) {
         <div class="labs__card__container">
           <div class="labs__card__background-image" [style.backgroundImage]="'url(' + lab.backgroundImg + ')'"></div>
           <div class="labs__card__overlay"></div>
@@ -33,7 +33,7 @@
         <div></div>
       }
       <div class="labs__navigation__pagination">
-        @for (item of [].constructor(labs.length); track item; let id = $index) {
+        @for (item of [].constructor(labs.length); let id = $index; track id) {
           <div class="labs__navigation__pagination__dot" [class.labs__navigation__pagination__active]="activePagination === (id + 1)"></div> 
         }
       </div>

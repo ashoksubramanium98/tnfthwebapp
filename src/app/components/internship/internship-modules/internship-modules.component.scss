@@ -56,4 +56,26 @@
       border-radius: 16px;
     }
   }
+  @media screen and (max-width: 700px) {
+    padding: 20px;
+    &__outer2 {
+      margin: 25px 0;
+    }
+    &__container1, &__container2 {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 25px;
+      padding: 20px 0;
+    }
+    &__container2 {
+      flex-direction: column;
+    }
+    &__data {
+      margin-left: 15px;
+    }
+    &__title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
 }

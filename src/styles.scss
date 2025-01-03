@@ -14,3 +14,10 @@ body {
 .text-grey {
   color: #ddd !important;
 }
+
+@media screen and (max-width: 700px) {    
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

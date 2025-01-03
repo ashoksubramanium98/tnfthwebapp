@@ -35,12 +35,33 @@
       color: #ddd;
     }
   }
-  &__video-container {
-    background: url('/assets/images/about-banner.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 384px;
-    width: 476px;
-    border-radius: 20px;
+  &__img-container {
+    img {
+      height: auto;
+      width: 98%;
+      border-radius: 16px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    padding: 20px;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding: 25px;
+    }
+    &__content {
+      gap: 16px;
+      &__title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      &__title::before {
+        display: none;
+      }
+    }
+    &__card {
+      overflow-x: scroll;
+    }
   }
 }
