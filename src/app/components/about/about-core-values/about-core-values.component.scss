@@ -89,4 +89,29 @@
       line-height: 26px;
     }
   }
+  @media screen and (max-width: 700px) {
+    padding: 50px 0;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding: 20px 0;
+    }
+    &__content {
+      gap: 16px;
+      &__title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      &__title::before {
+        display: none;
+      }
+    }
+    &__card {
+      overflow-x: scroll;
+      &__wrapper {
+        margin: 25px 0 0 300px;
+      }
+    }
+  }
 }

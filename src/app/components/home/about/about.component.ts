@@ -21,7 +21,7 @@ export class AboutComponent implements AfterViewInit {
       { threshold: 0.5 }
     );
 
-    const sections = document.querySelectorAll('.about__content, .about__video');
+    const sections = document.querySelectorAll('.about__content, .about__img-container');
     sections.forEach(section => observer.observe(section));
   }
 }

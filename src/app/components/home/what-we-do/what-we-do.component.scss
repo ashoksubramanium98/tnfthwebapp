@@ -83,30 +83,11 @@
     width: 62px;
     height: auto;
   }
-  &__video-container {
-    background: url('/assets/images/home-what-we-do.png');
-    background-size: cover;
-    background-position: center;
-    height: 658px;
-    width: 480px;
-    border-radius: 20px;
-  }
-  @media (max-width: 768px) {
-    .content-box {
-      width: 90%;
-      position: relative;
-      justify-content: center;
-    }
-  
-    .content-box.left,
-    .content-box.right {
-      left: unset;
-      right: unset;
-    }
-  
-    &__timeline::before {
-      left: 5%;
-      transform: none;
+  &__img-container {
+    img {
+      height: auto;
+      width: 98%;
+      border-radius: 16px;
     }
   }
   @keyframes fadeInUp {
@@ -117,5 +98,47 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }  
+  }
+  @media screen and (max-width: 700px) {
+    padding: 30px;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    &__content {
+      gap: 16px;
+      &__title {
+        font-size: 24px;
+        line-height: 37px;
+      }
+      &__title::before {
+        display: none;
+      }
+      .icon {
+        width: 48px;
+        height: 48px;
+        img {
+          width: 48px;
+          height: auto;
+        }
+      }
+      .text-box h3 {
+        font-size: 1rem;
+      }
+      .text-box p {
+        margin: 5px 0 0 0;
+      }
+    }
+    &__timeline-item {
+      margin-left: 0;
+    }
+    .content-box {
+      position: relative;
+      justify-content: center;
+    }
+    &__timeline::before {
+      display: none;
+    }
+  }
 }

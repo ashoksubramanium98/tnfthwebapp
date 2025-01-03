@@ -50,12 +50,27 @@
       opacity: 0.9;
     }
   }
-  &__video-container {
-    background: url('/assets/images/initiatives-home.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 384px;
-    width: 476px;
-    border-radius: 20px;
+  &__img-container {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    padding: 20px;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding: 20px 0;
+    }
+    &__content {
+      gap: 16px;
+      &__title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
   }
 }

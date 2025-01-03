@@ -84,4 +84,13 @@
       left: -10px;
     }
   }
+  @media screen and (max-width: 700px) {
+    padding: 20px;
+    &__container {
+      flex-direction: column;
+    }
+    &__content {
+      flex-direction: column;
+    }
+  }
 }
