@@ -4,7 +4,7 @@
       <div class="labs__title"> SERVICES </div>
     </div>
   </div>
-  <div class="labs__card">
+  <div class="labs__card" (mouseover)="pause()" (mouseleave)="startInfiniteLoop()">
     <div class="labs__card__wrapper" [style.transform]="'translateX(-' + scrollPosition + 'px)'">
       @for (lab of labs; track lab.id) {
         <div class="labs__card__container">
@@ -16,33 +16,9 @@
               <div class="labs__card__title"> {{ lab.title }} </div>
               <div class="labs__card__description"> {{ lab.description }} </div>
             </div>
-            <button class="labs__card__action"> Learn more </button>
+            <button class="labs__card__action" (click)="handleRedirectMenu(lab.url)"> Learn more </button>
           </div>
         </div>
-      }
-    </div>
-  </div>
-  
-  <div class="container">
-    <div class="labs__navigation">
-      @if (activePagination !== 1) {
-        <div (click)="handlePreviousLabs()">
-          <img src="/assets/icons/labs_right.svg" alt="Right" priority width="24" height="24" class="labs__navigation__icon" />
-        </div>
-      } @else {
-        <div></div>
-      }
-      <div class="labs__navigation__pagination">
-        @for (item of [].constructor(labs.length); let id = $index; track id) {
-          <div class="labs__navigation__pagination__dot" [class.labs__navigation__pagination__active]="activePagination === (id + 1)"></div> 
-        }
-      </div>
-      @if (activePagination <= labs.length) {
-        <div (click)="handleNextLabs()">
-          <img src="/assets/icons/labs_left.svg" alt="Left" priority width="24" height="24" class="labs__navigation__icon" />
-        </div>
-      } @else {
-        <div></div>
       }
     </div>
   </div>

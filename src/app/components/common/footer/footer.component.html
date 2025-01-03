@@ -3,12 +3,14 @@
     <div class="footer__content">
       <div class="footer__content__logo__container">
         <img ngSrc="/assets/images/logo.svg" alt="Logo" class="footer__content__logo" priority width="60" height="60" />
-        <div> Powered by <img src="" alt="A2000" class="footer__content__logo" /> </div>
+        <div class="footer__content__powered-by-logo__container">
+          Powered by <img src="/assets/images/a2000.png" alt="A2000" class="footer__content__powered-by-logo" />
+        </div>
       </div>
       <div>
         <div class="footer__content__menu__container">
-          @for (menu of menuOptions; track menu) {
-            <div class="footer__content__menu__option"> {{ menu }} </div>
+          @for (menu of menuOptions; track menu.name) {
+            <div class="footer__content__menu__option" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>
           }
         </div>
         <div class="footer__content__social">
@@ -18,9 +20,9 @@
         </div>
       </div>
       <div class="footer__content__menu__container">
-        <div class="footer__content__menu__option"> Terms and Conditions </div>
-        <div class="footer__content__menu__option"> Privacy Policy </div>
-        <div class="footer__content__menu__option"> Partner Companies </div>
+        @for (menu of secondaryMenuOptions; track menu.name) {
+          <div class="footer__content__menu__option" (click)="handleSocialRedirect(menu.url)"> {{ menu.name }} </div>
+        }
       </div>
     </div>
     <div class="footer__newsletter">

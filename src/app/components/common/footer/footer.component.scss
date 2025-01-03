@@ -1,5 +1,5 @@
 .footer {
-  background: #fff;
+  background: #0D4B7A;
   padding: 100px 0;
   &__container {
     display: flex;
@@ -19,14 +19,23 @@
       height: auto;
       border-radius: 4px;
     }
+    &__powered-by-logo {
+      &__container {
+        display: flex;
+        align-items: center;
+        color: #fff;
+      }
+      width: 50px;
+      height: auto;
+    }
     &__menu {
       &__container {
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 6px;
       }
       &__option {
-        color: #0D4B7A;
+        color: #fff;
         display: flex;
         align-items: center;
         font-weight: 400;
@@ -51,7 +60,7 @@
     flex-direction: column;
     gap: 10px;
     &__title {
-      color: #0D4B7A;
+      color: #fff;
       font-weight: 600;
       font-size: 20px;
     }
@@ -60,10 +69,10 @@
       align-items: center;
     }
     &__input {
-      color: #0D4B7A;
+      color: #fff;
       width: 200px;
       height: 40px;
-      border: 1px solid #0D4B7A;
+      border: 1px solid #fff;
       padding: 0 16px;
       border-radius: 4px;
       background: transparent;
@@ -73,8 +82,7 @@
     }
     &__submit {
       border: none;
-      color: #fff;
-      background: #0D4B7A;
+      background: #fff;
       border-radius: 4px;
       width: 136px;
       height: 42px;
