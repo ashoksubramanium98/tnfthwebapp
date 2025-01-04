@@ -11,22 +11,22 @@ export class AboutCoreValuesComponent {
     {
       title: 'Experience-Based Learning',
       description: 'Immersive labs and programs in cutting-edge fields like AI, IoT, EV, and cybersecurity.',
-      backgroundImg: '/assets/labs/core-lab.jpeg'
+      backgroundImg: '/assets/images/aboutUs/whatWeOffer1.jpg'
     },
     {
       title: 'Start-Up Support Ecosystem',
       description: 'Comprehensive resources, mentorship, and funding opportunities for entrepreneurs.',
-      backgroundImg: '/assets/labs/cg-lab.png'
+      backgroundImg: '/assets/images/aboutUs/whatWeOffer2.jpg'
     },
     {
       title: 'Incubation and Innovation Centers',
       description: 'Infrastructure and guidance to turn ideas into viable business models.',
-      backgroundImg: '/assets/labs/hub.jpeg'
-    },
+      backgroundImg: '/assets/images/aboutUs/whatWeOffer3.jpg'
+  },
     {
       title: 'Global Collaborations',
       description: 'Partnerships with world-class universities and organizations for international learning and research.',
-      backgroundImg: '/assets/labs/core-lab.jpeg'
+      backgroundImg: '/assets/images/aboutUs/whatWeOffer4.jpg'
     }
   ]
 }

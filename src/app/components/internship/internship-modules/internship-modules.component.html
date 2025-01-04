@@ -2,8 +2,12 @@
   <div class="internship-modules internship-modules__outer1">
     <div class="container">
       <div class="internship-modules__container2">
-        <div class="internship-modules__img-container">
-          <img src="/assets/images/home-about.jpeg" alt="home about" />
+        <div class="internship-modules__carousel-container">
+          <div class="internship-modules__carousel-track" [style.transform]="transformStyle" [style.transition]="transitionStyle">
+            @for (image of displayImages; track image) {
+              <img [src]="image" alt="Why Join" />
+            }
+          </div>
         </div>
         <div>
           <div class="internship-modules__title text-white"> Why Join TNFTH’s Internship Program? </div>
@@ -33,7 +37,7 @@
           </ul>  
         </div>
         <div class="internship-modules__img-container">
-          <img src="/assets/images/home-about.jpeg" alt="home about" />
+          <img src="/assets/images/internship/whoCanApply.jpg" alt="Who Can Apply" />
         </div>
       </div>
     </div>
