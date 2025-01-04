@@ -10,7 +10,9 @@
       <div>
         <div class="footer__content__menu__container">
           @for (menu of menuOptions; track menu.name) {
-            <div class="footer__content__menu__option" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>
+            @if (!menu.disabled) {
+              <div class="footer__content__menu__option" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>
+            }
           }
         </div>
         <div class="footer__content__social">
@@ -26,10 +28,29 @@
       </div>
     </div>
     <div class="footer__newsletter">
-      <div class="footer__newsletter__title"> Subscribe to get latest updates </div>
-      <div class="footer__newsletter__form">
-        <input placeholder="Type your email" class="footer__newsletter__input" />
-        <button class="footer__newsletter__submit"> Subscribe </button>
+      <div class="footer__social__container">
+        <div class="footer__social__content__title"> Our Location </div>
+        <div>
+          <div> Tamil Nadu Future Technology Hub (TNFTH) </div>
+          <div> [Insert Complete Address] </div>
+          <div> Chennai, Tamil Nadu, India </div>
+        </div>
+      </div>
+
+      <div class="footer__social__container">
+        <div class="footer__social__content__title"> Contact Details </div>
+        <div>
+         <div> Phone: </div>
+         <div> Email: </div>
+        </div>
+      </div>
+
+      <div class="footer__social__container">
+        <div class="footer__newsletter__title"> Subscribe to get latest updates </div>
+        <div class="footer__newsletter__form">
+          <input placeholder="Type your email" class="footer__newsletter__input" />
+          <button class="footer__newsletter__submit"> Subscribe </button>
+        </div>
       </div>
     </div>
   </div>

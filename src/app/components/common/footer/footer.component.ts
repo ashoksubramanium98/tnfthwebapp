@@ -14,7 +14,7 @@ export class FooterComponent {
 
   menuOptions = [
     { name: 'Home', url: '' }, { name: 'About', url: '/about' }, { name: 'Services', url: '/services/artificial-intelligence' },
-    { name: 'Initiatives', url: 'initiatives' }, { name: 'Reach Us', url: '/contact' }, { name: 'Internship', url: '/internship' }, 
+    { name: 'Initiatives', url: 'initiatives', disabled: true }, { name: 'Reach Us', url: '/contact' }, { name: 'Internship', url: '/internship' }, 
   ]
 
   socialIcons = [

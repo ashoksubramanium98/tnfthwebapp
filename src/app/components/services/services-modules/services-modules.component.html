@@ -60,9 +60,14 @@
               </div>
             }
           </ul>
-          <div class="services-modules__info"> {{ data.futureOpportunities.info }} </div>
+          @if (data.futureOpportunities?.info) {
+            <div class="services-modules__info"> {{ data.futureOpportunities.info }} </div>
+          }
         </div>
       </div>
     </div>
   </div>
+  @if (data?.photos?.length) {
+    <app-photo-collage [photos]="data.photos" />
+  }
 </div>
