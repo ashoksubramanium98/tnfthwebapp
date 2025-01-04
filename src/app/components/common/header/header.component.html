@@ -1,6 +1,6 @@
 <div class="header">
   <div class="header__container">
-    <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" (click)="handleShowSubMenuOptions('')" />
+    <img ngSrc="/assets/images/logos/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" (click)="handleShowSubMenuOptions('')" />
     <div class="header__menu__container">
       @for (menu of menuOptions; track menu.id) {
         @if (!menu.disabled) {

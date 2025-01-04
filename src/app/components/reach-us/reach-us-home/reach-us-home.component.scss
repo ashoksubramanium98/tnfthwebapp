@@ -2,10 +2,10 @@
   padding: 75px 0;
   &__container {
     display: grid;
-    grid-template-columns: 65% 30%;
+    grid-template-columns: 53% 45%;
     align-items: center;
     justify-content: space-between;
-    gap: 5%;
+    gap: 2%;
   }
   &__content {
     display: flex;
@@ -50,12 +50,18 @@
       &__title {
         font-size: 20px;
         font-weight: 600;
+        display: flex;
+        align-items: center;
       }
     }
     &__links {
       display: flex;
-      gap: 24px;
+      gap: 10px;
     }
+  }
+  &__icon {
+    height: 40px;
+    width: auto;
   }
   &__img-container {
     img {
