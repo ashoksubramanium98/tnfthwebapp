@@ -3,9 +3,11 @@
     <img ngSrc="/assets/images/logo.svg" alt="Logo" class="header__logo" priority width="60" height="60" (click)="handleShowSubMenuOptions('')" />
     <div class="header__menu__container">
       @for (menu of menuOptions; track menu.id) {
-        <div class="header__menu__option" [class.header__menu__active]="isActiveMenu(menu.url)" (click)="handleRedirectMenu(menu.url)"
+        @if (!menu.disabled) {
+          <div class="header__menu__option" [class.header__menu__active]="isActiveMenu(menu.url)" (click)="handleRedirectMenu(menu.url)"
           (mouseover)="handleShowMenuModal(menu.id)"
         > {{ menu.name }} </div>
+        }
       }
     </div>
   </div>

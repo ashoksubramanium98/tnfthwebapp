@@ -69,7 +69,12 @@
     "meta": {
       "title": "Unlock AI's Potential: Learn Machine Learning, Neural Networks, and More at TNFTH",
       "description": "Discover the transformative power of Artificial Intelligence at TNFTH’s AI Lab. Gain hands-on experience, master AI tools, and unlock career opportunities in machine learning, data science, and AI research."
-    }
+    },
+    "photos": [
+      "/assets/elcot/1.jpg", "/assets/elcot/2.jpg", "/assets/elcot/3.jpg", "/assets/elcot/4.jpg", "/assets/elcot/5.jpg", "/assets/elcot/6.jpg",
+      "/assets/elcot/7.jpg", "/assets/elcot/8.jpg", "/assets/elcot/9.jpg", "/assets/elcot/10.jpg", "/assets/elcot/11.jpg", "/assets/elcot/12.jpg",
+      "/assets/elcot/13.jpg", "/assets/elcot/14.jpg", "/assets/elcot/15.jpg", "/assets/elcot/16.jpg", "/assets/elcot/17.jpg", "/assets/elcot/18.jpg"
+    ]
   },
   {
     "id": "cyber-security",

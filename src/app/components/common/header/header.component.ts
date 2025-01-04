@@ -15,7 +15,7 @@ export class HeaderComponent {
   activeSubMenuDropdown:string | null = 'emergingTech';
   menuOptions = [
     { id: 'home', name: 'Home', subMenu: false, url: '' }, { id: 'about', name: 'About', subMenu: false, url: 'about' },
-    { id: 'services', name: 'Services', subMenu: true, url: null }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives' },
+    { id: 'services', name: 'Services', subMenu: true, url: null }, { id: 'initiatives', name: 'Initiatives', subMenu: false, url: 'initiatives', disabled: true },
     { id: 'contact', name: 'Reach Us', subMenu: false, url: 'contact' }, { id: 'internship', name: 'Internship', subMenu: false, url: 'internship' }
   ]
 

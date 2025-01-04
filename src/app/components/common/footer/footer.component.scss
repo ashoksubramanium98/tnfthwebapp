@@ -55,14 +55,30 @@
       cursor: pointer;
     }
   }
+  &__social {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: #fff;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      &__title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
   &__newsletter {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     &__title {
       color: #fff;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 16px;
     }
     &__form {
       display: flex;
@@ -99,6 +115,7 @@
     }
     &__content {
       flex-direction: column;
+      gap: 20px;
     }
   }
 }
