@@ -1,0 +1,19 @@
+.image-animation {
+  &__carousel-container {
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  &__carousel-track {
+    display: flex;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+  }
+}

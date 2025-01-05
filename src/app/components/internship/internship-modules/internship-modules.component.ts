@@ -37,21 +37,15 @@ export class InternshipModulesComponent implements OnInit, OnDestroy {
 
   startCarousel(): void {
     const totalImages = this.whyJoinImages.length;
-    const intervalDuration = 3000; // 3 seconds per slide
-
+    const intervalDuration = 3000;
     this.intervalId = setInterval(() => {
       this.currentIndex++;
-
       if (this.currentIndex === totalImages) {
-        // Remove transition for instant jump and reset index
         this.transitionStyle = 'none';
         this.currentIndex = 0;
       } else {
-        // Smooth transition for normal slide
         this.transitionStyle = 'transform 2s ease-in-out';
       }
-
-      // Update transform style
       this.transformStyle = `translateX(-${this.currentIndex * 100}%)`;
     }, intervalDuration);
   }

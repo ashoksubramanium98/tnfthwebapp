@@ -1,9 +1,9 @@
 .services-home {
-  padding: 75px 0;
+  padding: 100px 0;
   background: #0D4B7A;
   &__container {
     display: grid;
-    grid-template-columns: 58% 37%;
+    grid-template-columns: 48% 50%;
     align-items: center;
     justify-content: space-between;
     gap: 2%;
@@ -19,13 +19,9 @@
       font-weight: 700;
       color: #fff;
     }
-    &__description-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
     &__description {
       color: #eee;
+      line-height: 30px;
     }
     &__info-container {
       display: flex;
