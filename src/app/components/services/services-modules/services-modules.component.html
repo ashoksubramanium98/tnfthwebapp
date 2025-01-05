@@ -2,9 +2,7 @@
   <div class="services-modules">
     <div class="container">
       <div class="services-modules__container2">
-        <div class="services-modules__img-container">
-          <img src="/assets/images/home-about.jpeg" alt="home about" />
-        </div>
+        <app-image-animation [photos]="data.contributions?.images" />
         <div>
           <div class="services-modules__title"> {{ data.contributions.title }} </div>
           <div class="services-modules__description"> {{ data.contributions.description }} </div>
@@ -36,9 +34,7 @@
             }
           </ul>  
         </div>
-        <div class="services-modules__img-container">
-          <img src="/assets/images/home-about.jpeg" alt="home about" />
-        </div>
+        <app-image-animation [photos]="data.whatYouWillLearn?.images" />
       </div>
     </div>
   </div>
@@ -46,9 +42,7 @@
   <div class="services-modules">
     <div class="container">
       <div class="services-modules__container2">
-        <div class="services-modules__img-container">
-          <img src="/assets/images/home-about.jpeg" alt="home about" />
-        </div>
+        <app-image-animation [photos]="data.futureOpportunities?.images" />
         <div>
         <div class="services-modules__title"> {{ data.futureOpportunities.title }} </div>
           <div class="services-modules__description"> {{ data.futureOpportunities.description }} </div>

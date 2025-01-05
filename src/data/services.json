@@ -3,9 +3,12 @@
     "id": "artificial-intelligence",
     "title": "Artificial Intelligence (AI)",
     "description": "Artificial Intelligence (AI) is not just a futuristic concept; it’s a transformative force driving innovation across industries such as healthcare, entertainment, and finance. By leveraging AI’s ability to process complex datasets, identify patterns, and make intelligent decisions, businesses are revolutionizing operations and unlocking unparalleled efficiency. At TNFTH’s AI Lab, we bring AI’s real-world potential to life, providing a platform for creativity, innovation, and impactful solutions.",
+    "img": "/assets/images/service/ai/home.jpg",
     "contributions": {
       "title": "TNFTH's Contributions to the AI Ecosystem",
       "description": "At TNFTH, we empower learners and professionals with the resources and expertise needed to excel in AI. Here’s what we offer:",
+      "images": ["/assets/images/service/ai/contribution1.jpg", "/assets/images/service/ai/contribution2.jpg", "/assets/images/service/ai/contribution3.jpg",
+      "/assets/images/service/ai/contribution4.jpg"],
       "data": [
         {
           "title": "Cutting-Edge AI Tools and Frameworks",
@@ -28,6 +31,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Our AI Lab ensures you acquire both foundational knowledge and advanced expertise, empowering you with:",
+      "images": ["/assets/images/service/ai/learn1.jpg", "/assets/images/service/ai/learn2.jpg",  "/assets/images/service/ai/learn3.jpg"],
       "data": [
         {
           "title": "Core AI Concepts",
@@ -46,6 +50,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities with AI Expertise",
       "description": "The scope of AI extends beyond imagination, offering lucrative career opportunities such as:",
+      "images": ["/assets/images/service/ai/future1.jpg", "/assets/images/service/ai/future2.jpg", "/assets/images/service/ai/future3.jpg"],
       "data": [
         {
           "title": "Machine Learning Engineer",
@@ -71,18 +76,19 @@
       "description": "Discover the transformative power of Artificial Intelligence at TNFTH’s AI Lab. Gain hands-on experience, master AI tools, and unlock career opportunities in machine learning, data science, and AI research."
     },
     "photos": [
-      "/assets/elcot/1.jpg", "/assets/elcot/2.jpg", "/assets/elcot/3.jpg", "/assets/elcot/4.jpg", "/assets/elcot/5.jpg", "/assets/elcot/6.jpg",
-      "/assets/elcot/7.jpg", "/assets/elcot/8.jpg", "/assets/elcot/9.jpg", "/assets/elcot/10.jpg", "/assets/elcot/11.jpg", "/assets/elcot/12.jpg",
-      "/assets/elcot/13.jpg", "/assets/elcot/14.jpg", "/assets/elcot/15.jpg", "/assets/elcot/16.jpg", "/assets/elcot/17.jpg", "/assets/elcot/18.jpg"
+      "/assets/images/service//collage1.jpg", "/assets/images/service//collage2.jpg", "/assets/images/service//home.jpg"
     ]
   },
   {
     "id": "cyber-security",
     "title": "Cyber Security",
     "description": "In today’s hyper-connected world, cybersecurity has become the backbone of digital safety. From protecting sensitive personal data to securing critical national infrastructure, the need for skilled cybersecurity professionals is at an all-time high. At TNFTH’s Cyber Security Lab, we equip participants with the knowledge and tools to anticipate, identify, and neutralize cyber threats, ensuring a safer digital future.",
+    "img": "/assets/images/service/cyber/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to Cybersecurity Training",
       "description": "Our Cyber Security Lab is designed to empower participants with industry-relevant skills and cutting-edge tools. Here’s how we prepare you for success:",
+      "images": ["/assets/images/service/cyber/contribution1.jpg", "/assets/images/service/cyber/contribution2.jpg", "/assets/images/service/cyber/contribution3.jpg",
+      "/assets/images/service/cyber/contribution4.jpg"],
       "data": [
         {
           "title": "Access to Advanced Cybersecurity Tools",
@@ -105,6 +111,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Our comprehensive program ensures participants master the essentials of cybersecurity, including:",
+      "images": ["/assets/images/service/cyber/learn1.jpg", "/assets/images/service/cyber/learn2.jpg",  "/assets/images/service/cyber/learn3.jpg"],
       "data": [
         {
           "title": "Security Frameworks and Protocols",
@@ -123,6 +130,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities in Cybersecurity",
       "description": "The field of cybersecurity offers diverse and rewarding career paths. Upon completing TNFTH’s Cyber Security Lab, participants will be well-prepared for roles such as:",
+      "images": ["/assets/images/service/cyber/future1.jpg", "/assets/images/service/cyber/future2.jpg", "/assets/images/service/cyber/future3.jpg"],
       "data": [
         {
           "title": "Ethical Hacker",
@@ -148,9 +156,11 @@
     "id": "drone-technology",
     "title": "Drone Technology",
     "description": "Drones are transforming industries with their versatility, precision, and efficiency. From revolutionizing logistics and agriculture to enhancing defense capabilities, drones have become a vital tool for innovation. At TNFTH’s Drone Lab, participants dive into the cutting-edge world of drone technology, gaining the skills needed to design, operate, and deploy drones for a variety of applications.",
+    "img": "/assets/images/service/drone/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to Drone Technology Training",
       "description": "",
+      "images": ["/assets/images/service/drone/contribution1.jpg", "/assets/images/service/drone/contribution2.jpg", "/assets/images/service/drone/contribution3.jpg"],
       "data": [
         {
           "title": "Access to Advanced Drone Simulation Tools and Prototypes",
@@ -169,6 +179,8 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Our comprehensive program ensures a thorough understanding of drone technology and its applications, including:",
+      "images": ["/assets/images/service/drone/learn1.jpg", "/assets/images/service/drone/learn2.jpg",  "/assets/images/service/drone/learn3.jpg",
+      "/assets/images/service/drone/learn4.jpg", "/assets/images/service/drone/learn5.jpg"],
       "data": [
         {
           "title": "Core Principles of Drone Technology",
@@ -187,6 +199,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities with Drone Expertise",
       "description": "Drone technology is unlocking opportunities across various industries, creating demand for skilled professionals. Participants of TNFTH’s Drone Lab will be equipped to pursue roles in:",
+      "images": ["/assets/images/service/drone/future1.jpg", "/assets/images/service/drone/future2.jpg", "/assets/images/service/drone/future3.jpg"],
       "data": [
         {
           "title": "Drone Design and Manufacturing",
@@ -212,9 +225,11 @@
     "id": "electric-vehicle-ecosystem",
     "title": "Electric Vehicles (EV)",
     "description": "The electric vehicle (EV) revolution is driving the shift towards sustainable development, paving the way for a cleaner, greener future. With advancements in EV technology, from energy-efficient battery systems to smart vehicle integration, this field represents the forefront of innovation. At TNFTH’s EV Lab, participants gain hands-on experience and in-depth knowledge of the cutting-edge technology powering electric vehicles.",
+    "img": "/assets/images/service/electric/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to EV Technology Training",
       "description": "Our EV Lab is designed to provide learners with the expertise and tools required to excel in the dynamic field of electric vehicles. Here's what we offer:",
+      "images": ["/assets/images/service/electric/contribution1.jpg"],
       "data": [
         {
           "title": "Access to Real-World EV Components",
@@ -233,6 +248,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants will build a comprehensive understanding of EV technology and its applications, including:",
+      "images": ["/assets/images/service/electric/learn1.png"],
       "data": [
         {
           "title": "EV Mechanics and Dynamics",
@@ -251,6 +267,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities in the EV Industry",
       "description": "The EV sector offers a multitude of career opportunities in sustainable technology and transportation. Upon completing TNFTH’s EV Lab program, participants will be ready to excel in roles such as:",
+      "images": ["/assets/images/service/electric/future1.jpg"],
       "data": [
         {
           "title": "EV System Designer",
@@ -276,9 +293,12 @@
     "id": "iot-sensors",
     "title": "Introduction to IoT & Sensors",
     "description": "The Internet of Things (IoT) is at the core of the fourth industrial revolution, transforming the way devices communicate and enabling smarter, data-driven systems. By connecting devices and integrating sensor-based solutions, IoT is revolutionizing industries such as manufacturing, healthcare, and urban development. At TNFTH’s IoT & Sensors Lab, participants gain hands-on experience in designing, building, and implementing IoT networks and sensor-driven applications to address real-world challenges.",
+    "img": "/assets/images/service/iot/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to IoT and Sensors Training",
       "description": "Our IoT & Sensors Lab offers an unmatched environment for learning and innovation, providing:",
+      "images": ["/assets/images/service/iot/contribution1.jpg", "/assets/images/service/iot/contribution2.jpg", "/assets/images/service/iot/contribution3.jpg",
+      "/assets/images/service/iot/contribution4.jpg"],
       "data": [
         {
           "title": "State-of-the-Art Facilities",
@@ -297,6 +317,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants in our program will gain the skills and knowledge to excel in the rapidly growing IoT field:",
+      "images": ["/assets/images/service/iot/learn1.jpg", "/assets/images/service/iot/learn2.jpg",  "/assets/images/service/iot/learn3.jpg"],
       "data": [
         {
           "title": "IoT System Development",
@@ -315,6 +336,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities in IoT and Sensor Technology",
       "description": "IoT and sensors are the backbone of innovation in industries such as smart cities, manufacturing, and healthcare. Graduates from TNFTH’s IoT & Sensors Lab will be well-prepared for roles such as:",
+      "images": ["/assets/images/service/iot/future1.jpg", "/assets/images/service/iot/future2.jpg", "/assets/images/service/iot/future3.jpg"],
       "data": [
         {
           "title": "IoT Developer",
@@ -340,9 +362,12 @@
     "id": "5g-technology",
     "title": "5G Technology",
     "description": "5G technology is revolutionizing connectivity with ultra-fast speeds, low latency, and high reliability. It empowers industries to innovate and operate more efficiently in areas like telecommunications, healthcare, and smart cities. At TNFTH’s 5G Lab, participants gain hands-on experience with the latest 5G advancements, unlocking opportunities for scalable solutions and enhanced communication.",
+    "img": "/assets/images/service/5g/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to 5G Training",
       "description": "",
+      "images": ["/assets/images/service/5g/contribution1.jpg", "/assets/images/service/5g/contribution2.jpg", "/assets/images/service/5g/contribution3.jpg",
+      "/assets/images/service/5g/contribution4.jpg"],
       "data": [
         {
           "title": "Cutting-Edge Infrastructure",
@@ -361,6 +386,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "",
+      "images": ["/assets/images/service/5g/learn1.jpg", "/assets/images/service/5g/learn2.jpg",  "/assets/images/service/5g/learn3.jpg"],
       "data": [
         {
           "title": "Core 5G Concepts",
@@ -379,6 +405,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "Graduates of the 5G Lab will be prepared for roles such as:",
+      "images": ["/assets/images/service/5g/future1.jpg", "/assets/images/service/5g/future2.jpg", "/assets/images/service/5g/future3.jpg"],
       "data": [
         {
           "title": "Telecommunications Specialist",
@@ -404,9 +431,11 @@
     "id": "erp",
     "title": "Enterprise Resource Planning (ERP)",
     "description": "Enterprise Resource Planning (ERP) systems streamline business operations, integrating processes like finance, supply chain, and customer management into a unified platform. At TNFTH’s ERP Lab, participants learn to leverage ERP technologies for improved decision-making, scalability, and operational efficiency.",
+    "img": "/assets/images/service/erp/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to ERP Training",
       "description": "",
+      "images": ["/assets/images/service/erp/contribution1.jpg"],
       "data": [
         {
           "title": "State-of-the-Art ERP Platforms",
@@ -425,6 +454,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "",
+      "images": ["/assets/images/service/erp/learn1.jpg"],
       "data": [
         {
           "title": "ERP Fundamentals",
@@ -443,6 +473,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "Participants will be equipped to pursue careers in:",
+      "images": ["/assets/images/service/erp/future1.jpg"],
       "data": [
         {
           "title": "ERP Consultant",
@@ -468,9 +499,11 @@
     "id": "corporate-gateway-lab",
     "title": "Corporate Gateway Lab",
     "description": "The Corporate Gateway Lab at TNFTH is a groundbreaking platform where academic knowledge converges with industry innovation. By replicating real-world corporate environments, this lab equips participants with the tools and insights needed to excel in professional settings. Participants gain firsthand experience with workflows and challenges encountered in dynamic industries, bridging the gap between theoretical learning and practical application.",
+    "img": "/assets/images/service/gateway/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to the Corporate Gateway Lab",
       "description": "Our Corporate Gateway Lab is designed to prepare participants for real-world success with:",
+      "images": ["/assets/images/service/gateway/contribution1.jpg"],
       "data": [
         {
           "title": "Corporate-Grade Systems and Workflows",
@@ -489,6 +522,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants in the Corporate Gateway Lab will build a comprehensive skill set tailored to corporate excellence:",
+      "images": ["/assets/images/service/gateway/learn1.jpg"],
       "data": [
         {
           "title": "Problem-Solving and Critical Thinking",
@@ -507,6 +541,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "Graduates of the Corporate Gateway Lab will be well-prepared for impactful roles in:",
+      "images": ["/assets/images/service/gateway/future1.jpg"],
       "data": [
         {
           "title": "Corporate Technology Implementation",
@@ -532,9 +567,11 @@
     "id": "corporate-experience-center",
     "title": "Corporate Experience Center",
     "description": "The Corporate Experience Center is a collaborative hub designed to connect academia and industry. Here, participants engage with real-world projects, collaborate with industry leaders, and network with professionals, fostering a culture of innovation and continuous learning.",
+    "img": "/assets/images/service/experience/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to the Corporate Experience Center",
       "description": "The Corporate Experience Center empowers participants with opportunities to bridge the gap between theoretical knowledge and practical application through:",
+      "images": ["/assets/images/service/experience/contribution1.jpg"],
       "data": [
         {
           "title": "Industry-Driven Projects",
@@ -553,6 +590,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants gain comprehensive insights into corporate operations, including:",
+      "images": ["/assets/images/service/experience/learn1.jpg"],
       "data": [
         {
           "title": "Real-World Problem Solving",
@@ -571,6 +609,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "The Corporate Experience Center prepares participants for dynamic roles in:",
+      "images": ["/assets/images/service/experience/future1.jpg"],
       "data": [
         {
           "title": "Corporate Strategy",
@@ -596,9 +635,11 @@
     "id": "incubation-innovation-center",
     "title": "Incubation & Innovation Center",
     "description": "The Incubation & Innovation Center at TNFTH is a transformative platform designed to empower aspiring entrepreneurs, innovators, and researchers. By providing the necessary infrastructure, mentorship, and resources, the center bridges the gap between ideation and execution. It fosters a culture of collaboration and experimentation, enabling individuals and teams to address industry challenges and create impactful solutions. As a hub for innovation and growth in Tamil Nadu, the center is the ideal launchpad for groundbreaking ideas.",
+    "img": "/assets/images/service/incubation/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to the Incubation & Innovation Center",
       "description": "The center offers an ecosystem that supports every stage of the innovation journey through:",
+      "images": ["/assets/images/service/incubation/contribution1.jpg"],
       "data": [
         {
           "title": "State-of-the-Art Facilities",
@@ -621,6 +662,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants at the Incubation & Innovation Center will develop a broad range of skills to turn ideas into reality:",
+      "images": ["/assets/images/service/incubation/learn1.jpg"],
       "data": [
         {
           "title": "Product Ideation and Design Thinking",
@@ -643,6 +685,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "The Incubation & Innovation Center equips participants with the tools and knowledge to succeed in various roles, including:",
+      "images": ["/assets/images/service/incubation/future1.jpg"],
       "data": [
         {
           "title": "Startup Founders",
@@ -668,9 +711,11 @@
     "id": "start-up-support-center",
     "title": "Start-up Support Center",
     "description": "The Start-up Support Center at TNFTH is a dynamic ecosystem created to help entrepreneurs launch, grow, and scale their businesses. Designed to address the unique challenges of early-stage startups, the center provides comprehensive guidance on business development, financial management, and market strategies. Whether you’re a first-time founder or an experienced innovator, the center equips you with the tools and knowledge needed to transform ideas into successful enterprises.",
+    "img": "/assets/images/service/support/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to the Start-up Support Center",
       "description": "The Start-up Support Center provides an end-to-end support system for entrepreneurs through:",
+      "images": ["/assets/images/service/support/contribution1.jpg"],
       "data": [
         {
           "title": "Startup Accelerators and Seed Funding",
@@ -693,6 +738,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants in the Start-up Support Center will gain essential skills and knowledge to drive their ventures forward:",
+      "images": ["/assets/images/service/support/learn1.jpg"],
       "data": [
         {
           "title": "Startup Management and Financial Planning",
@@ -711,6 +757,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "Graduates of the Start-up Support Center will be well-equipped to pursue impactful opportunities, including:",
+      "images": ["/assets/images/service/support/future1.jpg"],
       "data": [
         {
           "title": "Scaling Startups",
@@ -736,9 +783,11 @@
     "id": "overseas-university-connecting-center",
     "title": "Overseas University Connecting Center",
     "description": "The Overseas University Connecting Center at TNFTH is a strategic hub for global collaboration, bridging participants with prestigious universities worldwide. This center opens pathways to international education, research, and professional opportunities, enabling participants to stay ahead in today’s competitive, interconnected world. By facilitating partnerships with world-class institutions, the center drives cross-border innovation, academic growth, and cultural exchange.",
+    "img": "/assets/images/service/overseas/home.jpg",
     "contributions": {
       "title": "TNFTH’s Contributions to the Overseas University Connecting Center",
       "description": "The center provides unparalleled access to global educational and professional opportunities through:",
+      "images": ["/assets/images/service/overseas/contribution1.jpg"],
       "data": [
         {
           "title": "Exchange Programs and Dual-Degree Opportunities",
@@ -757,6 +806,7 @@
     "whatYouWillLearn": {
       "title": "What You’ll Learn",
       "description": "Participants at the Overseas University Connecting Center will develop critical skills and knowledge to thrive in a globalized environment:",
+      "images": ["/assets/images/service/overseas/learn1.jpg"],
       "data": [
         {
           "title": "Global Perspective on Emerging Technologies",
@@ -775,6 +825,7 @@
     "futureOpportunities": {
       "title": "Future Opportunities",
       "description": "Graduates of the Overseas University Connecting Center will be prepared for diverse global opportunities, including:",
+      "images": ["/assets/images/service/overseas/future1.jpg"],
       "data": [
         {
           "title": "Pursuing Advanced Degrees Abroad",
