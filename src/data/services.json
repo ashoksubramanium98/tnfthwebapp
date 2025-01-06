@@ -76,7 +76,8 @@
       "description": "Discover the transformative power of Artificial Intelligence at TNFTH’s AI Lab. Gain hands-on experience, master AI tools, and unlock career opportunities in machine learning, data science, and AI research."
     },
     "photos": [
-      "/assets/images/service//collage1.jpg", "/assets/images/service//collage2.jpg", "/assets/images/service//home.jpg"
+      "/assets/images/service/ai/collage1.jpg", "/assets/images/service/ai/collage2.jpg", "/assets/images/service/ai/home.jpg", "/assets/images/service/ai/contribution1.jpg", "/assets/images/service/ai/contribution2.jpg", "/assets/images/service/ai/contribution3.jpg",
+      "/assets/images/service/ai/contribution4.jpg"
     ]
   },
   {
@@ -150,7 +151,11 @@
     "meta": {
       "title": "Master Cybersecurity: Learn Ethical Hacking, Threat Analysis, and More at TNFTH",
       "description": "Protect the digital world with TNFTH’s Cyber Security Lab. Learn ethical hacking, manage incidents, and mitigate threats with hands-on training. Secure top roles as a cybersecurity analyst, ethical hacker, or security manager."
-    }
+    },
+    "photos": [
+      "/assets/images/service/cyber/collage1.jpg", "/assets/images/service/cyber/home.jpg", "/assets/images/service/cyber/contribution1.jpg",
+      "/assets/images/service/cyber/learn1.jpg", "/assets/images/service/cyber/future1.jpg"
+    ]
   },
   {
     "id": "drone-technology",
@@ -219,7 +224,11 @@
     "meta": {
       "title": "Master Drone Technology: Design, Operate, and Innovate with TNFTH",
       "description": "Explore the future of innovation at TNFTH’s Drone Lab. Learn drone design, flight control, and regulatory compliance through hands-on training. Build a career in industries like logistics, agriculture, urban planning, and defense."
-    }
+    },
+    "photos": [
+      "/assets/images/service/drone/future3.jpg", "/assets/images/service/drone/home.jpg", "/assets/images/service/drone/contribution1.jpg",
+      "/assets/images/service/drone/learn1.jpg", "/assets/images/service/drone/future1.jpg"
+    ]
   },
   {
     "id": "electric-vehicle-ecosystem",
@@ -287,7 +296,11 @@
     "meta": {
       "title": "Master Electric Vehicle Technology: Learn Design, Battery Systems, and Smart Integration",
       "description": "Step into the future of transportation with TNFTH’s EV Lab. Gain expertise in EV mechanics, energy-efficient batteries, and smart technologies. Build a career as an EV system designer, battery specialist, or sustainable energy consultant."
-    }
+    },
+    "photos": [
+      "/assets/images/service/electric/home.jpg", "/assets/images/service/electric/contribution1.jpg", "/assets/images/service/electric/learn1.jpg",
+      "/assets/images/service/electric/future1.jpg"
+    ]
   },
   {
     "id": "iot-sensors",
@@ -356,7 +369,11 @@
     "meta": {
       "title": "Master IoT and Sensor Technology: Build Smarter Systems with TNFTH",
       "description": "Discover the potential of IoT and sensors at TNFTH’s IoT & Sensors Lab. Learn to design IoT systems, harness sensor data, and drive automation in industries like manufacturing, healthcare, and smart cities."
-    }
+    },
+    "photos": [
+      "/assets/images/service/iot/home.jpg", "/assets/images/service/iot/contribution1.jpg", "/assets/images/service/iot/learn1.jpg",
+      "/assets/images/service/iot/future1.jpg"
+    ]
   },
   {
     "id": "5g-technology",
@@ -425,7 +442,11 @@
     "meta": {
       "title": "Master 5G Connectivity: Unlock the Future at TNFTH’s 5G Lab",
       "description": "Explore the limitless potential of 5G technology at TNFTH’s 5G Lab. Gain hands-on experience and prepare for a career in telecommunications, IoT, and smart systems."
-    }
+    },
+    "photos": [
+      "/assets/images/service/5g/home.jpg", "/assets/images/service/5g/contribution1.jpg", "/assets/images/service/5g/learn1.jpg",
+      "/assets/images/service/5g/future1.jpg"
+    ]
   },
   {
     "id": "erp",
@@ -493,7 +514,11 @@
     "meta": {
       "title": "Streamline Business Operations with ERP Training at TNFTH",
       "description": "Learn to optimize business processes with ERP systems at TNFTH’s ERP Lab. Develop skills in customization, analytics, and enterprise management for global opportunities."
-    }
+    },
+    "photos": [
+      "/assets/images/service/erp/home.jpg", "/assets/images/service/erp/contribution1.jpg", "/assets/images/service/erp/learn1.jpg",
+      "/assets/images/service/erp/future1.jpg"
+    ]
   },
   {
     "id": "corporate-gateway-lab",
@@ -561,7 +586,11 @@
     "meta": {
       "title": "Bridge Academia and Industry at TNFTH’s Corporate Gateway Lab",
       "description": "Transform learning into action at TNFTH’s Corporate Gateway Lab. Gain real-world experience with corporate systems, project management, and team collaboration. Prepare for leadership roles in technology, strategy, and innovation."
-    }
+    },
+    "photos": [
+      "/assets/images/service/gateway/home.jpg", "/assets/images/service/gateway/contribution1.jpg", "/assets/images/service/gateway/learn1.jpg",
+      "/assets/images/service/gateway/future1.jpg"
+    ]
   },
   {
     "id": "corporate-experience-center",
@@ -629,7 +658,11 @@
     "meta": {
       "title": "Bridge Academia and Industry at TNFTH’s Corporate Experience Center",
       "description": "Connect with industry leaders and work on real-world projects at TNFTH’s Corporate Experience Center. Build expertise in strategy, innovation management, and business development."
-    }
+    },
+    "photos": [
+      "/assets/images/service/experience/home.jpg", "/assets/images/service/experience/contribution1.jpg", "/assets/images/service/experience/learn1.jpg",
+      "/assets/images/service/experience/future1.jpg"
+    ]
   },
   {
     "id": "incubation-innovation-center",
@@ -705,7 +738,11 @@
     "meta": {
       "title": "Empower Innovation at TNFTH’s Incubation & Innovation Center",
       "description": "Turn ideas into reality at TNFTH’s Incubation & Innovation Center. Gain mentorship, resources, and support for product ideation, prototype development, and securing funding. Build your startup or advance in research and innovation roles."
-    }
+    },
+    "photos": [
+      "/assets/images/service/incubation/home.jpg", "/assets/images/service/incubation/contribution1.jpg", "/assets/images/service/incubation/learn1.jpg",
+      "/assets/images/service/incubation/future1.jpg"
+    ]
   },
   {
     "id": "start-up-support-center",
@@ -777,7 +814,11 @@
     "meta": {
       "title": "Empower Your Venture at TNFTH’s Start-up Support Center",
       "description": "Launch and scale your startup with TNFTH’s Start-up Support Center. Access mentorship, funding opportunities, and regulatory assistance. Master branding, financial planning, and customer acquisition for success."
-    }
+    },
+    "photos": [
+      "/assets/images/service/support/home.jpg", "/assets/images/service/support/contribution1.jpg", "/assets/images/service/support/learn1.jpg",
+      "/assets/images/service/support/future1.jpg"
+    ]
   },
   {
     "id": "overseas-university-connecting-center",
@@ -845,6 +886,10 @@
     "meta": {
       "title": "Connect with World-Class Universities at TNFTH’s Overseas University Connecting Center",
       "description": "Explore global opportunities with TNFTH’s Overseas University Connecting Center. Access exchange programs, dual-degree options, and international internships. Build a global perspective, advance your career, and connect with prestigious universities worldwide."
-    }
+    },
+    "photos": [
+      "/assets/images/service/overseas/home.jpg", "/assets/images/service/overseas/contribution1.jpg", "/assets/images/service/overseas/learn1.jpg",
+      "/assets/images/service/overseas/future1.jpg"
+    ]
   }
 ]

@@ -1,0 +1,7 @@
+<div class="photo-collage-animation">
+  @for (photo of photos; track photo; let i = $index) {
+    <div class="photo-collage-animation__photo" [class]="'size-' + (i % 6)">
+      <img [src]="photo" alt="photo" />
+    </div>
+  }
+</div>

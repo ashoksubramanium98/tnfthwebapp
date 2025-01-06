@@ -61,7 +61,10 @@
       </div>
     </div>
   </div>
-  @if (data?.photos?.length) {
-    <app-photo-collage [photos]="data.photos" />
-  }
+
+  <div class="container">
+    @if (data?.photos?.length) {
+      <app-photo-collage-animation [photos]="data.photos" />
+    }
+  </div>
 </div>
