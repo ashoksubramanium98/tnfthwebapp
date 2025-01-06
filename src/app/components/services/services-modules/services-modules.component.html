@@ -2,7 +2,13 @@
   <div class="services-modules">
     <div class="container">
       <div class="services-modules__container2">
-        <app-image-animation [photos]="data.contributions?.images" />
+        <div class="services-modules__img-container">
+          @for (photo of data.contributions?.images; track photo; let i = $index) {
+            <div class="services-modules__photo" [class]="'size-' + (i % 5)">
+              <img [src]="photo" alt="photo" />
+            </div>
+          }
+        </div>
         <div>
           <div class="services-modules__title"> {{ data.contributions.title }} </div>
           <div class="services-modules__description"> {{ data.contributions.description }} </div>
@@ -34,7 +40,13 @@
             }
           </ul>  
         </div>
-        <app-image-animation [photos]="data.whatYouWillLearn?.images" />
+        <div class="services-modules__img-container">
+          @for (photo of data.whatYouWillLearn?.images; track photo; let i = $index) {
+            <div class="services-modules__photo" [class]="'size-' + (i % 5)">
+              <img [src]="photo" alt="photo" />
+            </div>
+          }
+        </div>
       </div>
     </div>
   </div>
@@ -42,7 +54,13 @@
   <div class="services-modules">
     <div class="container">
       <div class="services-modules__container2">
-        <app-image-animation [photos]="data.futureOpportunities?.images" />
+        <div class="services-modules__img-container">
+          @for (photo of data.futureOpportunities?.images; track photo; let i = $index) {
+            <div class="services-modules__photo" [class]="'size-' + (i % 5)">
+              <img [src]="photo" alt="photo" />
+            </div>
+          }
+        </div>
         <div>
         <div class="services-modules__title"> {{ data.futureOpportunities.title }} </div>
           <div class="services-modules__description"> {{ data.futureOpportunities.description }} </div>
@@ -62,7 +80,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container services-modules__photo-collage-container">
     @if (data?.photos?.length) {
       <app-photo-collage-animation [photos]="data.photos" />
     }

@@ -39,4 +39,8 @@ export class WhatWeDoComponent {
       icon: '/assets/icons/innovation.svg',
     },
   ];
+
+  photos = [
+    "/assets/images/timeline1.jpg", "/assets/images/timeline2.jpg", "/assets/images/timeline3.jpg",
+  ]
 }

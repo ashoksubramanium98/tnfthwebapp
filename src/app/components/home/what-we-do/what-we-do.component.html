@@ -22,7 +22,11 @@
         </div>
       </div>
       <div class="what-we-do__img-container">
-        <img src="/assets/images/timeline.jpg" alt="home about" />
+        @for (photo of photos; track photo; let i = $index) {
+          <div class="what-we-do__photo" [class]="'size-' + (i % 5)">
+            <img [src]="photo" alt="photo" />
+          </div>
+        }
       </div>
     </div>
   </div>

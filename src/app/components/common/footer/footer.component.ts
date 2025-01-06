@@ -21,6 +21,7 @@ export class FooterComponent {
     { name: 'Facebook', imageUrl: '/assets/icons/facebook.png', redirectUrl: '' },
     { name: 'Instagram', imageUrl: '/assets/icons/instagram.png', redirectUrl: '' },
     { name: 'Twitter', imageUrl: '/assets/icons/twitter.png', redirectUrl: '' },
+    { name: 'Whatsapp', imageUrl: '/assets/icons/whatsapp.png', redirectUrl: '' },
     { name: 'Linkedin', imageUrl: '/assets/icons/linkedin.png', redirectUrl: '' },
     { name: 'Youtube', imageUrl: '/assets/icons/youtube.png', redirectUrl: '' },
   ]

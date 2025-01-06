@@ -49,9 +49,8 @@
       }
     }
     &__social {
-      margin-top: 20px;
       display: flex;
-      gap: 8px;
+      gap: 2px;
       cursor: pointer;
     }
   }
@@ -74,7 +73,7 @@
   &__newsletter {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     &__title {
       color: #fff;
       font-weight: 600;
