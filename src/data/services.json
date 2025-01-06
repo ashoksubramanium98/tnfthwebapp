@@ -76,8 +76,8 @@
       "description": "Discover the transformative power of Artificial Intelligence at TNFTH’s AI Lab. Gain hands-on experience, master AI tools, and unlock career opportunities in machine learning, data science, and AI research."
     },
     "photos": [
-      "/assets/images/service/ai/collage1.jpg", "/assets/images/service/ai/collage2.jpg", "/assets/images/service/ai/home.jpg", "/assets/images/service/ai/contribution1.jpg", "/assets/images/service/ai/contribution2.jpg", "/assets/images/service/ai/contribution3.jpg",
-      "/assets/images/service/ai/contribution4.jpg"
+      "/assets/images/service/ai/collage1.jpg", "/assets/images/service/ai/collage2.jpg", "/assets/images/service/ai/home.jpg",
+      "/assets/images/service/ai/contribution1.jpg"
     ]
   },
   {
@@ -154,7 +154,7 @@
     },
     "photos": [
       "/assets/images/service/cyber/collage1.jpg", "/assets/images/service/cyber/home.jpg", "/assets/images/service/cyber/contribution1.jpg",
-      "/assets/images/service/cyber/learn1.jpg", "/assets/images/service/cyber/future1.jpg"
+      "/assets/images/service/cyber/learn1.jpg"
     ]
   },
   {
@@ -227,7 +227,7 @@
     },
     "photos": [
       "/assets/images/service/drone/future3.jpg", "/assets/images/service/drone/home.jpg", "/assets/images/service/drone/contribution1.jpg",
-      "/assets/images/service/drone/learn1.jpg", "/assets/images/service/drone/future1.jpg"
+      "/assets/images/service/drone/learn1.jpg"
     ]
   },
   {
@@ -298,8 +298,8 @@
       "description": "Step into the future of transportation with TNFTH’s EV Lab. Gain expertise in EV mechanics, energy-efficient batteries, and smart technologies. Build a career as an EV system designer, battery specialist, or sustainable energy consultant."
     },
     "photos": [
-      "/assets/images/service/electric/home.jpg", "/assets/images/service/electric/contribution1.jpg", "/assets/images/service/electric/learn1.jpg",
-      "/assets/images/service/electric/future1.jpg"
+      "/assets/images/service/electric/home.jpg", "/assets/images/service/electric/contribution1.jpg", "/assets/images/service/electric/future1.jpg",
+      "/assets/images/service/electric/learn1.png"
     ]
   },
   {

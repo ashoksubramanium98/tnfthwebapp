@@ -21,6 +21,7 @@ export class ImageAnimationComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    this.displayImages = []
     clearInterval(this.intervalId);
   }
 

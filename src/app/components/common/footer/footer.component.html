@@ -1,31 +1,24 @@
 <div class="footer">
   <div class="footer__container container">
-    <div class="footer__content">
-      <div class="footer__content__logo__container">
-        <img ngSrc="/assets/images/logos/logo.svg" alt="Logo" class="footer__content__logo" priority width="60" height="60" />
-        <div class="footer__content__powered-by-logo__container">
-          Powered by <img src="/assets/images/logos/a2000.png" alt="A2000" class="footer__content__powered-by-logo" />
-        </div>
+    <div class="footer__content__logo__container">
+      <img ngSrc="/assets/images/logos/logo.svg" alt="Logo" class="footer__content__logo" priority width="60" height="60" />
+      <div class="footer__content__powered-by-logo__container">
+        Powered by <img src="/assets/images/logos/a2000.png" alt="A2000" class="footer__content__powered-by-logo" />
       </div>
-      <div>
-        <div class="footer__content__menu__container">
-          @for (menu of menuOptions; track menu.name) {
-            @if (!menu.disabled) {
-              <div class="footer__content__menu__option" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>
-            }
-          }
-        </div>
-        <div class="footer__content__social">
-          @for (socialIcon of socialIcons; track socialIcon.name) {
-            <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
-          }
-        </div>
-      </div>
+    </div>
+    <div>
       <div class="footer__content__menu__container">
-        @for (menu of secondaryMenuOptions; track menu.name) {
-          <div class="footer__content__menu__option" (click)="handleSocialRedirect(menu.url)"> {{ menu.name }} </div>
+        @for (menu of menuOptions; track menu.name) {
+          @if (!menu.disabled) {
+            <div class="footer__content__menu__option" (click)="handleRedirectMenu(menu.url)"> {{ menu.name }} </div>
+          }
         }
       </div>
+    </div>
+    <div class="footer__content__menu__container">
+      @for (menu of secondaryMenuOptions; track menu.name) {
+        <div class="footer__content__menu__option" (click)="handleSocialRedirect(menu.url)"> {{ menu.name }} </div>
+      }
     </div>
     <div class="footer__newsletter">
       <div class="footer__social__container">
@@ -43,6 +36,11 @@
          <div> Phone: </div>
          <div> Email: </div>
         </div>
+      </div>
+      <div class="footer__content__social">
+        @for (socialIcon of socialIcons; track socialIcon.name) {
+          <img [ngSrc]="socialIcon.imageUrl" [alt]="socialIcon.name" (click)="handleSocialRedirect(socialIcon.redirectUrl)" priority width="24" height="24" />
+        }
       </div>
 
       <div class="footer__social__container">
