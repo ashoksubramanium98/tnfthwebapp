@@ -40,7 +40,7 @@
             }
           </ul>  
         </div>
-        <div class="services-modules__img-container">
+        <div class="services-modules__img-container" #targetSection id="target-section">
           @for (photo of data.whatYouWillLearn?.images; track photo; let i = $index) {
             <div class="services-modules__photo" [class]="'size-' + (i % 5)">
               <img [src]="photo" alt="photo" />
