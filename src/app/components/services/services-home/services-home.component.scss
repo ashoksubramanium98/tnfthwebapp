@@ -1,12 +1,12 @@
 .services-home {
-  padding: 100px 0;
+  padding: 200px 0;
   background: #0D4B7A;
   &__container {
     display: grid;
-    grid-template-columns: 48% 50%;
+    grid-template-columns: 48% 48%;
     align-items: center;
     justify-content: space-between;
-    gap: 2%;
+    gap: 4%;
   }
   &__content {
     display: flex;
@@ -21,7 +21,7 @@
     }
     &__description {
       color: #eee;
-      line-height: 30px;
+      line-height: 35px;
     }
     &__info-container {
       display: flex;
